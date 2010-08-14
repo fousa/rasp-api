@@ -22,36 +22,47 @@ require 'pp'
      rows = page.search("//tbody")
 
      count = 0
-     list = []
+     headers = []
+     header_list = []
+     name = nil
      rows.first.children().each do |row|
-       if count > 1
+       if count > 0
          columns = row.search("td")
-         name = columns[0].at("font/a")
-         animation_link = columns[1] ? columns[1].at("font/a") : nil
-         total_link = columns[2] ? columns[2].at("font/a") : nil
-         if name && animation_link && animation_link.inner_text == "Animation"
-           link = animation_link["href"]
-           list << {
-             :name => name.inner_text,
-             :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren")}",
-             :today  => "#{@@base_uri}#{link}",
-             :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.")}",
-             :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")}"
-           }
-         elsif name && total_link && total_link.inner_text == "Total"
-           link = total_link["href"]
-           list << {
-             :name => name.inner_text, 
-              :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren")}",
-              :today  => "#{@@base_uri}#{link}",
-              :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.")}",
-              :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")}"
-           }
+         if columns[0].at("font")["color"] == "#cc0000"
+           if !header_list.empty?
+             headers << [name, header_list]
+             header_list = []
+           end
+           name = columns[0].at("font/b").inner_text.gsub(":", "")
+         else
+           inner_name = columns[0].at("font/a")
+            animation_link = columns[1] ? columns[1].at("font/a") : nil
+            total_link = columns[2] ? columns[2].at("font/a") : nil
+            if name && animation_link && animation_link.inner_text == "Animation"
+              link = animation_link["href"]
+              header_list << {
+                :name => inner_name.inner_text,
+                :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren")}",
+                :today  => "#{@@base_uri}#{link}",
+                :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.")}",
+                :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")}"
+              }
+            elsif name && total_link && total_link.inner_text == "Total"
+              link = total_link["href"]
+              header_list << {
+                :name => inner_name.inner_text, 
+                 :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren")}",
+                 :today  => "#{@@base_uri}#{link}",
+                 :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.")}",
+                 :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")}"
+              }
+            end
          end
        end
        count += 1
      end
-     list
+     headers << [name, header_list]
+     headers
    end
 
    # def account_balance
