@@ -42,10 +42,10 @@ require 'pp'
               link = animation_link["href"]
               header_list << {
                 :name => inner_name.inner_text,
-                :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren")}",
-                :today  => "#{@@base_uri}#{link}",
-                :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.")}",
-                :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")}"
+                :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren").gsub("loop", "%04dlst").gsub("gif", "png")}",
+                :today  => "#{@@base_uri}#{link.gsub("loop", "%04dlst").gsub("gif", "png")}",
+                :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.").gsub("loop", "%04dlst").gsub("gif", "png")}",
+                :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.").gsub("loop", "%04dlst").gsub("gif", "png")}"
               }
             elsif name && total_link && total_link.inner_text == "Total"
               link = total_link["href"]
