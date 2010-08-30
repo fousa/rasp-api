@@ -45,7 +45,8 @@ require 'pp'
                 :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren").gsub("loop", "%04dlst").gsub("gif", "png")}",
                 :today  => "#{@@base_uri}#{link.gsub("loop", "%04dlst").gsub("gif", "png")}",
                 :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.").gsub("loop", "%04dlst").gsub("gif", "png")}",
-                :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.").gsub("loop", "%04dlst").gsub("gif", "png")}"
+                :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.").gsub("loop", "%04dlst").gsub("gif", "png")}",
+                :animated => true
               }
             elsif name && total_link && total_link.inner_text == "Total"
               link = total_link["href"]
@@ -54,7 +55,8 @@ require 'pp'
                  :yesterday  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_gisteren")}",
                  :today  => "#{@@base_uri}#{link}",
                  :tomorrow  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.")}",
-                 :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")}"
+                 :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")}",
+                 :animated => false
               }
             end
          end
