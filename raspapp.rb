@@ -17,6 +17,6 @@ class Raspapp
 
   get '/menu' do
     content_type :json
-    @rasp.menu(params[:language].to_json
+    @rasp.menu(params[:language]).to_json
   end
 end
