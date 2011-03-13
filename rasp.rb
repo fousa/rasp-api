@@ -40,7 +40,7 @@ require 'pp'
            inner_name = columns[0].at("font/a")
             animation_link = columns[1] ? columns[1].at("font/a") : nil
             total_link = columns[2] ? columns[2].at("font/a") : nil
-            if name && animation_link && animation_link.inner_text == "Animation"
+            if name && animation_link && (animation_link.inner_text == "Animation" || animation_link.inner_text == "Animatie")
               link = animation_link["href"]
               header_list << {
                 :name => inner_name.inner_text,
@@ -50,7 +50,7 @@ require 'pp'
                 :in_two_days  => "#{@@base_uri}#{link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.").gsub("loop", "%04dlst").gsub("gif", "png")}",
                 :animated => true
               }
-            elsif name && total_link && total_link.inner_text == "Total"
+            elsif name && total_link && (total_link.inner_text == "Total" || total_link.inner_text == "Totaal")
               link = total_link["href"]
               header_list << {
                 :name => inner_name.inner_text, 
