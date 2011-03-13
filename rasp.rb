@@ -5,7 +5,7 @@ require 'pp'
 
  class Rasp
    @@base_uri = "http://rasp.kzc.nl/"
-   @@english_uri = "http://rasp.kzc.nl/index.php?Lang="
+   @@english_uri = "http://rasp.kzc.nl/index.php?Lang=En"
 
    def initialize
      @agent = Mechanize.new { |agent|
@@ -20,7 +20,7 @@ require 'pp'
    def menu(language)
 		 language = "en" if language.nil?
 
-     page = agent.get(@@english_uri << language)
+     page = agent.get(@@english_uri)
      rows = page.search("//tbody")
 
      count = 0
