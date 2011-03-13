@@ -18,7 +18,7 @@ require 'pp'
    end
 
    def menu(language)
-		 language = "en" if langauge.nil?
+		 language = "en" if language.nil?
 
      page = agent.get(@@english_uri << language)
      rows = page.search("//tbody")
