@@ -17,9 +17,7 @@ require 'pp'
      @agent
    end
 
-   def menu
-		 language = params[:language] || "en"
-
+   def menu(language = "en")
      page = agent.get(@@english_uri << language)
      rows = page.search("//tbody")
 
