@@ -46,10 +46,9 @@ class Rasp
 
 	def parse_normal_row(row)
 		inner_name     = row[0].at("font/a")
-		animation_link = row[1] ? row[1].at("font/a") : nil
 		total_link     = row[2] ? row[2].at("font/a") : nil
-		if animation?(animation_link)
-			link = animation_link["href"]
+		if with_hours?(total_link)
+			link = total_link["href"]
 			self.cells << parse_cell(link, inner_name, true)
 		elsif total?(total_link)
 			link = total_link["href"]
@@ -57,8 +56,8 @@ class Rasp
 		end
 	end
 
-	def animation?(animation_link)
-		self.name && animation_link && (animation_link.inner_text == "Animation" || animation_link.inner_text == "Animatie")
+	def with_hours?(animation_link)
+		self.name && animation_link && (animation_link.inner_text == "0830")
 	end
 
 	def total?(total_link)
@@ -77,26 +76,25 @@ class Rasp
 	end
 
 	def parse_yesterday_url(link, animated)
-		url = base_uri + link.gsub("plaatjes", "plaatjes_gisteren")
-		url = url.gsub("loop", "%04dlst").gsub("gif", "png") if animated
-		url
+		parse_day "plaatjes_gisteren", link, "curr", animated
 	end
 
 	def parse_today_url(link, animated)
-		url = base_uri + link
-		url = url.gsub("loop", "%04dlst").gsub("gif", "png") if animated
-		url
+		parse_day "plaatjes", link, "curr", animated
 	end
 
 	def parse_tomorrow_url(link, animated)
-		url = base_uri + link.gsub("plaatjes", "plaatjes_morgen").gsub("curr.", "curr+1.")
-		url = url.gsub("loop", "%04dlst").gsub("gif", "png") if animated
-		url
+		parse_day "plaatjes_morgen", link, "curr+1", animated
 	end
 
 	def parse_the_day_after_url(link, animated)
-		url = base_uri + link.gsub("plaatjes", "plaatjes_overmorgen").gsub("curr.", "curr+2.")
-		url = url.gsub("loop", "%04dlst").gsub("gif", "png") if animated
+		parse_day "plaatjes_overmorgen", link, "curr+2", animated
+	end
+
+	def parse_day(period, link, curr, animated)
+		url = "#{base_uri}/#{period}/"
+		url << link.gsub("showblipmap.php?Param=", "").split("&").first
+		url << (animated ? ".#{curr}.%04dlst.d2.png" : ".#{curr}.loop.d2.gif")
 		url
 	end
 end
