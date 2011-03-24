@@ -1,3 +1,3 @@
-require 'raspapp'
+require 'app'
 
-run Sinatra::Application
+run App

@@ -10,7 +10,7 @@ This repo contains the code for the API website.
 HOW
 ---
 
-I made another repo with the iPhone application, in which I scrape the website and return the menu items with its links.
+I made another [repo](http://github.com/fousa/rasp) with the iPhone application, in which I scrape the website and return the menu items with its links.
 
 Go to the [heroku app](http://rasp.heroku.com/menu) and check the output.
 

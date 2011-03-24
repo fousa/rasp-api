@@ -1,0 +1,45 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: 618963f15707ddae0d80bdc8923953802265422d
+  specs:
+    sinatra (1.2.1)
+      rack (~> 1.2)
+      tilt (< 2.0, >= 1.2.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.1.2)
+    haml (3.0.25)
+    json (1.5.1)
+    mechanize (1.0.0)
+      nokogiri (>= 1.2.1)
+    nokogiri (1.4.4)
+    rack (1.2.2)
+    rack-test (0.5.7)
+      rack (>= 1.0)
+    rspec (2.4.0)
+      rspec-core (~> 2.4.0)
+      rspec-expectations (~> 2.4.0)
+      rspec-mocks (~> 2.4.0)
+    rspec-core (2.4.0)
+    rspec-expectations (2.4.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.4.0)
+    sequel (3.11.0)
+    sinatra-sequel (0.9.0)
+      sequel (>= 3.2.0)
+      sinatra (>= 0.9.4)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  json
+  mechanize
+  rack-test
+  rspec
+  sinatra!
+  sinatra-sequel
