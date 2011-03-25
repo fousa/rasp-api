@@ -3,6 +3,7 @@ require 'sinatra'
 require 'sinatra/sequel'
 require 'json'
 require 'haml'
+require 'rasp'
 
 migration "create connection_requests table" do
   database.create_table :connection_requests do
@@ -19,10 +20,6 @@ class App < Sinatra::Base
   set :haml, { :format => :html5 }
 	set :root, File.dirname(__FILE__)
 
-  before do
-    @rasp = Benelux.new
-  end
-
   get '/' do
     ConnectionRequest.create(:name => "root", :created_at => Time.now)
 
@@ -34,7 +31,8 @@ class App < Sinatra::Base
 
     ConnectionRequest.create(:name => "menu", :created_at => Time.now)
 
-    @rasp.menu(params[:language]).to_json
+    @rasp = Rasp.new params[:language], params[:country]
+    @rasp.charts.to_json
   end
 
   # start the server if ruby file executed directly

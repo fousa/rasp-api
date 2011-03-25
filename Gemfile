@@ -6,6 +6,7 @@ gem 'sinatra-sequel'
 gem 'json'
 gem 'mechanize'
 gem 'haml'
+gem 'sqlite3'
 
 gem 'rack-test'
 gem 'rspec'

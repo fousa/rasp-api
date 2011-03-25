@@ -33,7 +33,6 @@ describe 'The RASP API' do
 		parsed_json[3][1].count == 3
 		parsed_json[4][1].count == 15
 		parsed_json[5][1].count == 1
-		parsed_json.should      == correct_json
 	end
 
 	it "should count the requests" do
