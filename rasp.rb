@@ -94,9 +94,13 @@ class Rasp
 	def parse_day(period, link, curr, animated)
 			url = "#{base_uri}"
 		if animated
-		url << "#{period}/" if period 
-		url << link.gsub("showblipmap.php?Param=", "").split("&").first
-		url << ".#{curr}.%04dlst.d2.png"
+			url << "#{period}/" if period 
+			if link.match /showsounding/
+				url << link.gsub("showsounding.php?SoundingIndex=", "sounding").split("&").first
+			else
+				url << link.gsub("showblipmap.php?Param=", "").split("&").first
+			end
+			url << ".#{curr}.%04dlst.d2.png"
 		else
 			url << link.gsub("plaatjes", period).gsub("curr", curr)
 		end
