@@ -1,33 +1,24 @@
-require 'rubygems'
-require 'mechanize'
-require 'logger'
-require 'pp'
-require 'benelux'
+require 'json'
+require 'yaml'
 
 class Rasp
-	attr_accessor :agent, :language, :country
+	attr_accessor :country
 
-	def initialize(language, country)
-		self.agent = Mechanize.new { |a| a.follow_meta_refresh = true }
+	def initialize(country)
+		self.country  = country
+	end
 
-		self.language = language || "en"
-		self.country  = country  || "benl"
+	def exists?
+		self.country && File.exist?(country_yml)
 	end
 
 	def charts
-		klazz = get_country_klazz.new
-
-		page = self.agent.get(klazz.base_uri + self.language.capitalize)
-
-		klazz.parse_rows page
+		YAML.load(File.read(country_yml))
 	end
 
 	private
-	
-	def get_country_klazz
-		case self.country
-		when "benl"
-			Benelux
-		end
+
+	def country_yml
+		"countries/#{self.country}.yml"
 	end
 end

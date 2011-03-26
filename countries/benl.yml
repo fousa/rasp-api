@@ -1,0 +1,268 @@
+benl:
+  config:
+    periods: [830, 900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900]
+  "Thermal":
+    "Surface Temperature":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sfctemp.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sfctemp.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sfctemp.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sfctemp.curr+2.%04dlst.d2.png"
+    "Normalized Surface Sun":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sfcsunpct.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sfcsunpct.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sfcsunpct.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sfcsunpct.curr+2.%04dlst.d2.png"
+    "Height of Boundary Layer Top":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/hbl.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/hbl.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/hbl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/hbl.curr+2.%04dlst.d2.png"
+    "Height of Critical Updraft Strength (<0,9 m/s)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/experimental1.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/experimental1.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/experimental1.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/experimental1.curr+2.%04dlst.d2.png"
+    "Maximum Thermalling Height including cloudbase limitations":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/hglider.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/hglider.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/hglider.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/hglider.curr+2.%04dlst.d2.png"
+    "Thermal Height Uncertainty":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/bltopvariab.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/bltopvariab.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/bltopvariab.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/bltopvariab.curr+2.%04dlst.d2.png"
+    "Thermal Updradft Velocity for 0,9 m/s sinkrate":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/wstar175.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/wstar175.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/wstar175.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/wstar175.curr+2.%04dlst.d2.png"
+    "Buoyancy/Shear Ratio":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/bsratio.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/bsratio.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/bsratio.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/bsratio.curr+2.%04dlst.d2.png"
+    "Thermal Updraft Velocity and B/S ratio":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/wstar_bsratio.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/wstar_bsratio.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/wstar_bsratio.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/wstar_bsratio.curr+2.%04dlst.d2.png"
+  "Wind":
+    "Surface wind":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sfcwind.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sfcwind.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sfcwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sfcwind.curr+2.%04dlst.d2.png"
+    "Boundary Layer Average Wind":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/blwind.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/blwind.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/blwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/blwind.curr+2.%04dlst.d2.png"
+    "Wind at the Boundary Layer Top":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/bltopwind.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/bltopwind.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/bltopwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/bltopwind.curr+2.%04dlst.d2.png"
+    "Boundary Layer Wind Shear":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/blwindshear.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/blwindshear.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/blwindshear.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/blwindshear.curr+2.%04dlst.d2.png"
+    "BL Convergence":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/wblmaxmin.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/wblmaxmin.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/wblmaxmin.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/wblmaxmin.curr+2.%04dlst.d2.png"
+    "Height at which BL Max. Up/Down Motion occurs":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/zwblmaxmin.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/zwblmaxmin.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/zwblmaxmin.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/zwblmaxmin.curr+2.%04dlst.d2.png"
+  "Clouds":
+    "Cumulus Cloudbase where CuPotential>0":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/zsfclclmask.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/zsfclclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/zsfclclmask.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/zsfclclmask.curr+2.%04dlst.d2.png"
+    "OvercastDevelopment Cloudbase where ODpotential>0":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/zblclmask.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/zblclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/zblclmask.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/zblclmask.curr+2.%04dlst.d2.png"
+    "BL Cloud Cover":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/blcloudpct.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/blcloudpct.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/blcloudpct.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/blcloudpct.curr+2.%04dlst.d2.png"
+    "Surface Dew Point Temperature":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sfcdewpt.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sfcdewpt.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sfcdewpt.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sfcdewpt.curr+2.%04dlst.d2.png"
+    "CAPE":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/cape.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/cape.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/cape.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/cape.curr+2.%04dlst.d2.png"
+    "1 hr Accumulated Rain":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/rain1.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/rain1.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/rain1.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/rain1.curr+2.%04dlst.d2.png"
+  "Wave/Upper-level":
+    "Vertical Velocity at 850 mb (~1500 m)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/press850.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/press850.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/press850.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/press850.curr+2.%04dlst.d2.png"
+    "Vertical Velocity at 700 mb (~2500 m)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/press700.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/press700.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/press700.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/press700.curr+2.%04dlst.d2.png"
+    "Vertical Velocity at 500 mb (~5800 m)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/press500.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/press500.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/press500.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/press500.curr+2.%04dlst.d2.png"
+    "Vertical Velocity Slice through location of Max. Vertical Velocity at wind-parallel angle":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/boxwmax.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/boxwmax.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/boxwmax.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/boxwmax.curr+2.%04dlst.d2.png"
+  "Soundings and locations":
+    "AMS (Amsterdam)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding1.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding1.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding1.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding1.curr+2.%04dlst.d2.png"
+    "EIN (Eindhoven)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding2.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding2.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding2.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding2.curr+2.%04dlst.d2.png"
+    "GRO (Groningen)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding3.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding3.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding3.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding3.curr+2.%04dlst.d2.png"
+    "DUS (Dusseldorf)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding4.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding4.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding4.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding4.curr+2.%04dlst.d2.png"
+    "BRE (Bremen)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding5.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding5.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding5.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding5.curr+2.%04dlst.d2.png"
+    "KAS (Kassel)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding6.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding6.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding6.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding6.curr+2.%04dlst.d2.png"
+    "HAN (Hannover)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding7.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding7.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding7.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding7.curr+2.%04dlst.d2.png"
+    "HAM (Hamburg)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding8.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding8.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding8.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding8.curr+2.%04dlst.d2.png"
+    "ERF (Erfurt)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding9.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding9.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding9.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding9.curr+2.%04dlst.d2.png"
+    "MAG (Magneburg)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding10.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding10.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding10.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding10.curr+2.%04dlst.d2.png"
+    "BRU (Brussel)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding11.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding11.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding11.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding11.curr+2.%04dlst.d2.png"
+    "LUX (Luxemburg)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding12.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding12.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding12.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding12.curr+2.%04dlst.d2.png"
+    "FRA (Frankfurt)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding13.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding13.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding13.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding13.curr+2.%04dlst.d2.png"
+    "NUR (Nurnberg)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding14.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding14.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding14.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding14.curr+2.%04dlst.d2.png"
+    "LIL (Lille)":
+      has_periods: true
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/sounding15.curr.%04dlst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/sounding15.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/sounding15.curr+1.%04dlst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/sounding15.curr+2.%04dlst.d2.png"
+  "Other":
+    "Ground level 50m":
+      has_periods: false
+      yesterday: "http://rasp.kzc.nl/terrain50.png"
+      today: "http://rasp.kzc.nl/terrain50.png"
+      tomorrow: "http://rasp.kzc.nl/terrain50.png"
+      the_day_after: "http://rasp.kzc.nl/terrain50.png"
+    "Ground level 10m":
+      has_periods: false
+      yesterday: "http://rasp.kzc.nl/terrain10.png"
+      today: "http://rasp.kzc.nl/terrain10.png"
+      tomorrow: "http://rasp.kzc.nl/terrain10.png"
+      the_day_after: "http://rasp.kzc.nl/terrain10.png"
+  "Experimental":
+    "Potential flight distance":
+      has_periods: false
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/pfdtot.curr.1900lst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/pfdtot.curr.1900lst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/pfdtot.curr+1.1900lst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/pfdtot.curr+2.1900lst.d2.png"
