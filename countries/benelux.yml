@@ -1,6 +1,6 @@
-benl:
+benelux:
   config:
-    periods: [830, 900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900]
+    periods: [900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000]
   "Thermal":
     "Surface Temperature":
       has_periods: true
@@ -262,7 +262,7 @@ benl:
   "Experimental":
     "Potential flight distance":
       has_periods: false
-      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/pfdtot.curr.1900lst.d2.png"
-      today: "http://rasp.kzc.nl/plaatjes/pfdtot.curr.1900lst.d2.png"
-      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/pfdtot.curr+1.1900lst.d2.png"
-      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/pfdtot.curr+2.1900lst.d2.png"
+      yesterday: "http://rasp.kzc.nl/plaatjes_gisteren/pfdtot.curr.2000lst.d2.png"
+      today: "http://rasp.kzc.nl/plaatjes/pfdtot.curr.2000lst.d2.png"
+      tomorrow: "http://rasp.kzc.nl/plaatjes_morgen/pfdtot.curr+1.2000lst.d2.png"
+      the_day_after: "http://rasp.kzc.nl/plaatjes_overmorgen/pfdtot.curr+2.2000lst.d2.png"

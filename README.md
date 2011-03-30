@@ -14,6 +14,14 @@ I made another [repo](http://github.com/fousa/rasp) with the iPhone application,
 
 Go to the [heroku app](http://rasp.heroku.com/menu) and check the output.
 
+KEYS
+----
+
+Add the following environment variables:
+
+- NOTIFIO\_SERVICE\_USERNAME
+- NOTIFIO\_SECRET
+
 WHO
 ---
 

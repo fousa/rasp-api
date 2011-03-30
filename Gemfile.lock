@@ -9,12 +9,17 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
+    crack (0.1.8)
     diff-lcs (1.1.2)
     haml (3.0.25)
+    httparty (0.4.5)
+      crack (>= 0.1.1)
     json (1.5.1)
     mechanize (1.0.0)
       nokogiri (>= 1.2.1)
     nokogiri (1.4.4)
+    notifo (0.1.0)
+      httparty (~> 0.4.5)
     rack (1.2.2)
     rack-test (0.5.7)
       rack (>= 1.0)
@@ -35,6 +40,7 @@ DEPENDENCIES
   haml
   json
   mechanize
+  notifo
   rack-test
   rspec
   sinatra!

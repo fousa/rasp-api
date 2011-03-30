@@ -13,7 +13,7 @@ class Rasp
 	end
 
 	def charts
-		YAML.load(File.read(country_yml))
+		YAML.load(File.read(country_yml))[self.country]
 	end
 
 	private
