@@ -4,7 +4,7 @@ describe 'The charts' do
   include Rack::Test::Methods
 
   it "should have valid links" do
-		["benelux"].each do |country|
+		["benelux", "westernswissalps"].each do |country|
 			rasp = Rasp.new country
 			charts = rasp.charts
 			puts "=== COUNTRY: #{country}"
