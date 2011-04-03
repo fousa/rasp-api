@@ -7,12 +7,12 @@ task :cron do
 	dir        = File.expand_path(File.dirname(__FILE__))
 	begin
 		result   = sh "cd #{dir}; bundle exec ruby spec/*"
-		duration = distance_of_time_in_words start_time, Time.now, true
 		message  = "Great Success in "
 	rescue
 		message = "#fail in "
 	end
 
+	duration = distance_of_time_in_words start_time, Time.now, true
 	notifo = Notifo.new(ENV['NOTIFIO_SERVICE_USERNAME'], ENV['NOTIFIO_SECRET'])
 	notifo.post("fousa", message << "#{duration}")
 end
