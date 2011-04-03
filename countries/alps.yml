@@ -1,0 +1,478 @@
+alps:
+  config:
+    periods: [900, 1200, 1500]
+    only_hours_in_url: true
+  "Forecasted charts":
+    "Height of BL top":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/hbl%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/hbl%02dalpsj2.png"
+    "BL depth":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/dbl%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/dbl%02dalpsj2.png"
+    "BL top uncertainty and variability":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/bltopvariab%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/bltopvariab%02dalpsj2.png"
+    "Thermal updraft velocity (W*)":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/wstar%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/wstar%02dalpsj2.png"
+    "Buoyancy/Shear ratio":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/bsratio%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/bsratio%02dalpsj2.png"
+    "BL Max up/down motion (convergence areas)":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/wblmaxmin%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/wblmaxmin%02dalpsj2.png"
+    "Mean sea level atmospheric pressure":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/mslpress%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/mslpress%02dalpsj2.png"
+    "Surface winds":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sfcwind%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sfcwind%02dalpsj2.png"
+    "BL winds":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/blwind%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/blwind%02dalpsj2.png"
+    "BL top winds":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/bltopwind%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/bltopwind%02dalpsj2.png"
+    "Wind barbs &amp; vertical velocity at 850 hPa":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/press850%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/press850%02dalpsj2.png"
+    "Wind barbs &amp; vertical velocity at 700 hPa":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/press700%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/press700%02dalpsj2.png"
+    "Wind barbs &amp; vertical velocity at 500 hPa":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/press500%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/press500%02dalpsj2.png"
+    "Surface air temperature":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sfctemp%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sfctemp%02dalpsj2.png"
+    "Surface dew point":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sfcdewpt%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sfcdewpt%02dalpsj2.png"
+    "Relative (pct) sunshine":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sfcsunpct%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sfcsunpct%02dalpsj2.png"
+    "BL cloud cover (Cu, sc, st)":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/blcloudpct%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/blcloudpct%02dalpsj2.png"
+    "Cumulus cloud base":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/zsfclclmask%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/zsfclclmask%02dalpsj2png"
+    "Overcast development potential":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/zblcldif%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/zblcldif%02dalpsj2.png"
+    "CAPE - thunderstorm trend":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/cape%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/cape%02dalpsj2.png"
+    "3h accumulated total precipitation":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/rain3%02dalpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/rain3%02dalpsj2.png"
+    "Snow cover on the ground (macroscale)":
+      has_periods: false
+      today: "http://www.soaringmeteo.ch/ALPSRasp/snowcover12alpsj1.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/snowcover12alpsj2.png"
+  "Forecasted soundings":
+    "Payerne":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj101.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj201.png"
+    "Milano":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj102.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj202.png"
+    "Cuneo":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj103.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj203.png"
+    "Nime":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj104.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj204.png"
+    "Lyon":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj105.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj205.png"
+    "Udine":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj106.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj206.png"
+    "Munchen":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj107.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj207.png"
+    "Wien":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj108.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj208.png"
+    "Liguria":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj109.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj209.png"
+    "Maritime":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj110.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj220.png"
+    "Argentera":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj111.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj211.png"
+    "Provence":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj112.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj212.png"
+    "Pelat":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj113.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj213.png"
+    "Digne":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj114.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj214.png"
+    "Baronnies":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj115.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj215.png"
+    "Mercantour":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj116.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj216.png"
+    "Diois":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj117.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj217.png"
+    "Devoluy":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj118.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj218.png"
+    "Queyras":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj119.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj219.png"
+    "Ecrins":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj120.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj220.png"
+    "Vercors":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj121.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj221.png"
+    "Monviso":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj122.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj222.png"
+    "Rousses":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj123.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj223.png"
+    "Cerces":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj124.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj224.png"
+    "Belledonne":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj125.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj225.png"
+    "Chartreuse":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj126.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj226.png"
+    "Vanoise":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj127.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj227.png"
+    "Paradiso":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj128.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj228.png"
+    "Beaufortain":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj129.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj229.png"
+    "Bauges":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj130.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj230.png"
+    "Bornes":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj131.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj231.png"
+    "Giffre":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj132.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj232.png"
+    "Herens":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj133.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj233.png"
+    "Barone":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj134.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj234.png"
+    "Aosta":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj135.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj235.png"
+    "Chablais":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj136.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj236.png"
+    "Diablerets":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj137.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj237.png"
+    "Jaman":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj138.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj238.png"
+    "Wispile":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj139.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj239.png"
+    "Oberwallis":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj140.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj240.png"
+    "Grindelwald":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj141.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj241.png"
+    "Rothorn":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj142.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj242.png"
+    "Centovalli":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj143.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj243.png"
+    "Uri":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj144.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj244.png"
+    "Mythen":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj145.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj245.png"
+    "Adula":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj146.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj246.png"
+    "Ticino":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj147.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj247.png"
+    "Ceneri":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj148.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj248.png"
+    "Santis":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj149.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj249.png"
+    "Glarus":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj150.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj250.png"
+    "Bernina":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj151.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj251.png"
+    "Davos":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj152.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj252.png"
+    "Ratikon":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj153.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj253.png"
+    "Bergamasche":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj154.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj254.png"
+    "Arlberg":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj155.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj255.png"
+    "Engadin":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj156.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj256.png"
+    "Silvretta":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj157.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj257.png"
+    "Marmentino":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj158.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj258.png"
+    "Adamello":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj159.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj259.png"
+    "Ortles":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj160.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj260.png"
+    "Otzi":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj161.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj261.png"
+    "Stubai":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj162.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj262.png"
+    "Garmisch":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj163.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj262.png"
+    "Ala":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj164.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj264.png"
+    "Sarntal":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj165.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj265.png"
+    "Rofange":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj166.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj266.png"
+    "Zillertal":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj167.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj267.png"
+    "Bassano":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj168.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj268.png"
+    "Dolomiti":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj169.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj269.png"
+    "Kitzbuhl":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj170.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj270.png"
+    "HTauern":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj171.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj271.png"
+    "Lienz":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj172.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj272.png"
+    "Pramagiorre":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj173.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj273.png"
+    "Dachstein":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj174.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj274.png"
+    "NTauern":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj175.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj275.png"
+    "Gurktal":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj176.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj276.png"
+    "Wolfsberg":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj177.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj277.png"
+    "Wildalpen":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj178.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj278.png"
+    "Totes":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj179.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj279.png"
+    "Bohinj":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj180.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj280.png"
+    "Croca":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj181.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj281.png"
+    "Velenje":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj182.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj282.png"
+    "Cabar":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj183.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj283.png"
+    "Toscana":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj184.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj284.png"
+    "JuraS":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj185.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj285.png"
+    "JuraN":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj186.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj286.png"
+    "Schwarzwald":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj187.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj287.png"
+    "Vosges":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj188.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj288.png"
+    "Montana":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj189.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj289.png"
+    "Saleve":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj190.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj290.png"
+    "Cortina":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj191.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj291.png"
+    "Seeboden":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj192.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj292.png"
+    "Berchtesgaden":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj193.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj293.png"
+    "Bormio":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj194.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj294.png"
+    "Aurina":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj195.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj295.png"
+    "Pontebba":
+      has_periods: true
+      today: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj196.png"
+      tomorrow: "http://www.soaringmeteo.ch/ALPSRasp/sound%02dalpsj296.png"
