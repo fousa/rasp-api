@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/spec_helper'
 describe 'The charts' do
   include Rack::Test::Methods
 
-	%w(germany benelux alps westernswissalps).each do |country|
+	%w(southerncalifornia germany benelux alps westernswissalps).each do |country|
 		it "should validate the links for #{country}" do
 			validate_links_for country
 		end
