@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/spec_helper'
 describe 'The charts' do
   include Rack::Test::Methods
 
-	%w(southerncalifornia germany benelux alps westernswissalps).each do |country|
+	%w(bryon southerncalifornia germany benelux alps westernswissalps).each do |country|
 		it "should validate the links for #{country}" do
 			validate_links_for country
 		end
@@ -19,7 +19,6 @@ def validate_links_for(country)
 			charts[header].keys.each do |chart|
 				puts "------> #{chart}"
 				urls = charts[header][chart]["today"]
-
 				if urls.first
 					puts "---------> #{urls.first}"
 					Net::HTTP.get_response(URI.parse(urls.first)).class.should == Net::HTTPOK
