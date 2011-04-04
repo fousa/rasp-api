@@ -33,7 +33,8 @@ class Rasp
 						unless url.nil?
 							urls = []
 							if has_periods
-								charts["config"]["periods"].each do |period|
+								periods = charts["config"]["#{day}_periods"] || charts["config"]["periods"]
+								periods.each do |period|
 									if charts["config"]["only_hours_in_url"]
 										link = url.gsub("%02d", "%02d" % (period/100))
 									else
