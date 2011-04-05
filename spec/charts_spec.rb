@@ -5,6 +5,8 @@ describe 'The charts' do
 
 	%w(
 		alps
+		avenal13km
+		avenal4km
 		benelux
 		bryon750m
 		bryon3km

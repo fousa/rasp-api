@@ -1,0 +1,129 @@
+avenal13km:
+  config:
+    periods: [1000, 1100, 1200, 1300]
+    yesterday_periods: [1100, 1200, 1300]
+    only_hours_in_url: false
+  "Thermal":
+    "Thermal Updraft Velocity & B/S Ratio":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.wstar_bsratio.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/wstar_bsratio.curr.%04dlst.w2.png"
+    "Thermal Updraft Velocity (W*)":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.wstar.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/wstar.curr.%04dlst.w2.png"
+    "Buoyancy/Shear Ratio":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.bsratio.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/bsratio.curr.%04dlst.w2.png"
+    "Ht of Critical Updraft Strength (Hcrit)":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.hwcrit.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/hwcrit.curr.%04dlst.w2.png"
+    "Depth of Critical Updraft Strength (AGL Hcrit)":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.dwcrit.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/dwcrit.curr.%04dlst.w2.png"
+    "BL Top":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.hbl.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/hbl.curr.%04dlst.w2.png"
+    "BL Depth":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.dbl.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/dbl.curr.%04dlst.w2.png"
+    "Thermal Height Uncertainty":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.bltopvariab.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/bltopvariab.curr.%04dlst.w2.png"
+    "Sfc.Heating":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.sfcshf.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/sfcshf.curr.%04dlst.w2.png"
+    "Normalized Sfc. Sun":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.sfcsunpct.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/sfcsunpct.curr.%04dlst.w2.png"
+    "Sfc.Temperature":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.sfctemp.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/sfctemp.curr.%04dlst.w2.png"
+  "Wind":
+    "Sfc.Wind":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.sfcwind.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/sfcwind.curr.%04dlst.w2.png"
+    "BL Avg. Wind":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.blwind.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/blwind.curr.%04dlst.w2.png"
+    "Wind at BL Top":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.bltopwind.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/bltopwind.curr.%04dlst.w2.png"
+    "BL Wind Shear":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.blwindshear.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/blwindshear.curr.%04dlst.w2.png"
+    "BL Max. Up/Down (Convergence)":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.wblmaxmin.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/wblmaxmin.curr.%04dlst.w2.png"
+  "Cloud":
+    "Cu Potential":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.zsfclcldif.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/zsfclcldif.curr.%04dlst.w2.png"
+    "Cu Cloudbase (Sfc.LCL) MSL":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.zsfclcl.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/zsfclcl.curr.%04dlst.w2.png"
+    "Cu Cloudbase where CuPotential > 0":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.zsfclcl.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/zsfclcl.curr.%04dlst.w2.png"
+    "OD Potential":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.zblcldif.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/zblcldif.curr.%04dlst.w2.png"
+    "OD Cloudbase (BL CL) MSL":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.zblcl.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/zblcl.curr.%04dlst.w2.png"
+    "OD Cloudbase where ODpotential > 0":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.zblclmask.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/zblclmask.curr.%04dlst.w2.png"
+    "BL Explicitly-predicted CloudWater":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.blcwbase.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/blcwbase.curr.%04dlst.w2.png"
+    "BL Cloud Cover":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.blcloudpct.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/blcloudpct.curr.%04dlst.w2.png"
+    "Sfc. Dew Point Temperature":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.sfcdewpt.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/sfcdewpt.curr.%04dlst.w2.png"
+    "CAPE":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.cape.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/cape.curr.%04dlst.w2.png"
+  "Wave":
+    "Vertical Velocity at 850mb":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.press850.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/press850.curr.%04dlst.w2.png"
+    "Vertical Velocity at 700mb":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.press700.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/press700.curr.%04dlst.w2.png"
+    "Vertical Velocity at 500mb":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.press500.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/press500.curr.%04dlst.w2.png"
+    "Vert.Velocity Slice at Vert.Vel.Max":
+      has_periods: true
+      yesterday: "http://alcald.homelinux.org/RASP/AVENAL/FCST/previous.boxwmax.curr.%04dlst.w2.png"
+      today: "http://alcald.homelinux.org/RASP/AVENAL/FCST/boxwmax.curr.%04dlst.w2.png"
