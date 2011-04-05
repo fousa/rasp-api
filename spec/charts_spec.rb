@@ -10,6 +10,7 @@ describe 'The charts' do
 		bryon3km
 		germany
 		southerncalifornia
+		swsouthafrica
 		westernswissalps
 	).each do |country|
 		it "should validate the links for #{country}" do
