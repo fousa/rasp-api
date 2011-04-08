@@ -2,25 +2,25 @@ require 'json'
 require 'yaml'
 
 class Rasp
-	attr_accessor :country
+	attr_accessor :region
 
-	def initialize(country)
-		self.country  = country
+	def initialize(region)
+		self.region  = region
 	end
 
 	def exists?
-		self.country && File.exist?(country_yml)
+		self.region && File.exist?(region_yml)
 	end
 
 	def charts
-		charts = YAML.load(File.read(country_yml))[self.country]
+		charts = YAML.load(File.read(region_yml))[self.region]
 		charts_with_urls(charts)
 	end
 
 	private
 
-	def country_yml
-		"countries/#{self.country}.yml"
+	def region_yml
+		"regions/#{self.region}.yml"
 	end
 
 	def charts_with_urls(charts)

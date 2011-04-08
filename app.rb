@@ -11,16 +11,16 @@ class App < Sinatra::Base
     haml :index
   end
 
-  get '/countries/:country/charts' do
   get '/regions' do
     haml :regions
   end
 
+  get '/regions/:region' do
     content_type :json
 
-		rasp = Rasp.new params[:country]
+		rasp = Rasp.new params[:region]
 		
-		halt 400, { :error => "Country incorrect or not supplied" }.to_json unless rasp.exists?
+		halt 400, { :error => "Region incorrect or not supplied" }.to_json unless rasp.exists?
 
     rasp.charts.to_json
   end
