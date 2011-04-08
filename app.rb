@@ -12,6 +12,10 @@ class App < Sinatra::Base
   end
 
   get '/countries/:country/charts' do
+  get '/regions' do
+    haml :regions
+  end
+
     content_type :json
 
 		rasp = Rasp.new params[:country]
