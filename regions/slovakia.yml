@@ -1,0 +1,114 @@
+slovakia:
+  config:
+    periods: [600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700]
+    only_hours_in_url: false
+  "Thermals":
+    "Thermal Updraft Velocity & B/S Ratio":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/wstar_bsratio.curr.%04dlst.d2.png"
+    "Thermal Updraft Velocity (W*)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/wstar.curr.%04dlst.d2.png"
+    "Buoyancy/Shear Ratio":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/bsratio.curr.%04dlst.d2.png"
+    "Ht of Critical Updraft Strength (225fpm)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/hwcrit.curr.%04dlst.d2.png"
+    "Depth of Critical Updraft Strength (AGL Hcrit)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/dwcrit.curr.%04dlst.d2.png"
+    "BL Top":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/hbl.curr.%04dlst.d2.png"
+    "BL Depth":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/dbl.curr.%04dlst.d2.png"
+    "Thermal Height Uncertainty":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/bltopvariab.curr.%04dlst.d2.png"
+    "MSL Height of max/min Wbl":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/zwblmaxmin.curr.%04dlst.d2.png"
+    "Sfc.Heating":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sfcshf.curr.%04dlst.d2.png"
+    "Normalized Sfc. Sun":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sfcsunpct.curr.%04dlst.d2.png"
+    "Sfc.Temperature":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sfctemp.curr.%04dlst.d2.png"
+    "Sfc.Dewpoint":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sfcdewpt.curr.%04dlst.d2.png"
+  "Wind":
+    "BL Avg. Wind":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/blwind.curr.%04dlst.d2.png"
+    "Wind at BL Top":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/bltopwind.curr.%04dlst.d2.png"
+    "BL Wind Shear":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/blwindshear.curr.%04dlst.d2.png"
+    "BL Max. Up/Down (Convergence)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/wblmaxmin.curr.%04dlst.d2.png"
+  "Cloud":
+    "Cu Potential":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/zsfclcldif.curr.%04dlst.d2.png"
+    "Cu Cloudbase (Sfc.LCL) MSL":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/zsfclcl.curr.%04dlst.d2.png"
+    "Cu Cloudbase where Cu Potential > 0":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/zsfclclmask.curr.%04dlst.d2.png"
+    "OD Potential":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/zblcldif.curr.%04dlst.d2.png"
+    "OD Cloudbase (BL CL) MSL":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/zblcl.curr.%04dlst.d2.png"
+    "OD Cloudbase where OD potential > 0":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/zblclmask.curr.%04dlst.d2.png"
+    "BL Explicitly-predicted CloudWater":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/blcwbase.curr.%04dlst.d2.png"
+    "BL Cloud Cover":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/blcloudpct.curr.%04dlst.d2.png"
+    "Rain":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/rain3.curr.%04dlst.d2.png"
+    "CAPE":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/cape.curr.%04dlst.d2.png"
+  "Wave":
+    "Vertical Velocity at 850mb":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/press850.curr.%04dlst.d2.png"
+    "Vertical Velocity at 700mb":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/press700.curr.%04dlst.d2.png"
+    "Vertical Velocity at 500mb":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/press500.curr.%04dlst.d2.png"
+    "Vert.Velocity Slice at Vert.Vel.Max":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/boxwmax.curr.%04dlst.d2.png"
+  "Soundings":
+    "Nitra":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sounding1.curr.%04dlst.d2.png"
+    "Privitza":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sounding2.curr.%04dlst.d2.png"
+    "Zeged":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sounding3.curr.%04dlst.d2.png"
+    "Budapest":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/slovakia/sounding4.curr.%04dlst.d2.png"
