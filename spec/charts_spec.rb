@@ -14,6 +14,9 @@ describe 'The charts' do
 		southerncalifornia
 		swsouthafrica
 		westernswissalps
+		baltic
+		centralfrance
+		slovakia
 	).each do |country|
 		it "should validate the links for #{country}" do
 			validate_links_for country
