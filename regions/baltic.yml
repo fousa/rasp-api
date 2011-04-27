@@ -1,0 +1,165 @@
+baltic:
+  config:
+    periods: [1200, 1210, 1220, 1230, 1240, 1250, 1300, 1310, 1320, 1330, 1340, 1350, 1400, 1410, 1420, 1430, 1440, 1450, 1500, 1510, 1520, 1530, 1540, 1550, 1600, 1610, 1620, 1630, 1640, 1650, 1700, 1710, 1720, 1730, 1740, 1750, 1800, 1810, 1820, 1830, 1840, 1850, 1900, 1910, 1920, 1930, 1940, 1950]
+    only_hours_in_url: false
+  "Thermals":
+    "Thermal Updraft Velocity & B/S Ratio":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/wstar_bsratio.curr.%04dlst.d2.png"
+    "Thermal Updraft Velocity (W*)":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/wstar.curr.%04dlst.d2.png"
+    "Buoyancy/Shear Ratio":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/bsratio.curr.%04dlst.d2.png"
+    "Ht of Critical Updraft Strength (Hrcti)":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/hwcrit.curr.%04dlst.d2.png"
+    "Depth of Critical Updraft Strength (AGL Hcrit)":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/dwcrit.curr.%04dlst.d2.png"
+    "BL Top":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/hbl.curr.%04dlst.d2.png"
+    "BL Depth":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/dbl.curr.%04dlst.d2.png"
+    "Thermalling Height":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/hglider.curr.%04dlst.d2.png"
+    "Thermal Height Uncertainty":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/bltopvariab.curr.%04dlst.d2.png"
+    "H_Lift for 175fpm Sink Rate (Experimental1)":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/experimental1.curr.%04dlst.d2.png"
+    "MSL Height of max/min Wbl":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/zwblmaxmin.curr.%04dlst.d2.png"
+    "Sfc.Heating":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sfcshf.curr.%04dlst.d2.png"
+    "Normalized Sfc. Sun":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sfcsunpct.curr.%04dlst.d2.png"
+    "Sfc.Temperature":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sfctemp.curr.%04dlst.d2.png"
+    "Sfc.Dewpoint":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sfcdewpt.curr.%04dlst.d2.png"
+  "Wind":
+    "MSL Pressure":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/mslpress.curr.%04dlst.d2.png"
+    "Sfc.Wind":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sfcwind.curr.%04dlst.d2.png"
+    "BL Avg. Wind":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/blwind.curr.%04dlst.d2.png"
+    "Wind at BL Top":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/bltopwind.curr.%04dlst.d2.png"
+    "BL Wind Shear":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/blwindshear.curr.%04dlst.d2.png"
+    "BL Max. Up/Down (Convergence)":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/wblmaxmin.curr.%04dlst.d2.png"
+  "Cloud":
+    "Cu Potential":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/zsfclcldif.curr.%04dlst.d2.png"
+    "Cu Cloudbase (Sfc.LCL) MSL":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/zsfclcl.curr.%04dlst.d2.png"
+    "Cu Cloudbase where Cu Potential > 0":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/zsfclclmask.curr.%04dlst.d2.png"
+    "OD Potential":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/zblcldif.curr.%04dlst.d2.png"
+    "OD Cloudbase (BL CL) MSL":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/zblcl.curr.%04dlst.d2.png"
+    "OD Cloudbase where OD potential > 0":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/zblclmask.curr.%04dlst.d2.png"
+    "BL Explicitly-predicted CloudWater":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/blcwbase.curr.%04dlst.d2.png"
+    "BL Cloud Cover":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/blcloudpct.curr.%04dlst.d2.png"
+    "CAPE":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/cape.curr.%04dlst.d2.png"
+  "Wave":
+    "Vertical Velocity at 850mb":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/press850.curr.%04dlst.d2.png"
+    "Vertical Velocity at 700mb":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/press700.curr.%04dlst.d2.png"
+    "Vertical Velocity at 500mb":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/press500.curr.%04dlst.d2.png"
+    "Vert.Velocity Slice at Vert.Vel.Max":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/boxwmax.curr.%04dlst.d2.png"
+  "Soundings":
+    "Ridali":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding1.curr.%04dlst.d2.png"
+    "Tartu":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding2.curr.%04dlst.d2.png"
+    "Viljandi":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding3.curr.%04dlst.d2.png"
+    "Rapla":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding4.curr.%04dlst.d2.png"
+    "Tallinn":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding5.curr.%04dlst.d2.png"
+    "Nurmsi":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding6.curr.%04dlst.d2.png"
+    "Kaunas":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding7.curr.%04dlst.d2.png"
+    "EYPR":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding8.curr.%04dlst.d2.png"
+    "EYVP":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding9.curr.%04dlst.d2.png"
+    "EYPN":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding10.curr.%04dlst.d2.png"
+    "EYTL":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding11.curr.%04dlst.d2.png"
+    "EYBI":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding12.curr.%04dlst.d2.png"
+    "EYKL":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding13.curr.%04dlst.d2.png"
+    "EFNU":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding14.curr.%04dlst.d2.png"
+    "EFRY":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding15.curr.%04dlst.d2.png"
+    "EFLA":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding16.curr.%04dlst.d2.png"
+    "Harku":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding17.curr.%04dlst.d2.png"
+    "EEKE":
+      has_periods: true
+      today: "http://parool.ee/ilm/EESTID/sounding18.curr.%04dlst.d2.png"
