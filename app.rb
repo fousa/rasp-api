@@ -17,7 +17,7 @@ class App < Sinatra::Base
   end
 
   get '/regions/:region' do
-    content_type :json
+    content_type :json, 'charset' => 'utf-8'
 
 		rasp = Rasp.new params[:region]
 		
