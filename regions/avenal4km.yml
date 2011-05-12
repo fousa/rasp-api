@@ -127,15 +127,15 @@ avenal4km:
       yesterday: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/previous.boxwmax.curr.%04dlst.d2.png"
       today: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/boxwmax.curr.%04dlst.d2.png"
   "Soundings":
-    "Hollister":
+    "New Cuyama":
       has_periods: true
       yesterday: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/previous.sounding1.curr.%04dlst.d2.png"
       today: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/sounding1.curr.%04dlst.d2.png"
-    "Panoche":
+    "Avenal":
       has_periods: true
       yesterday: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/previous.sounding2.curr.%04dlst.d2.png"
       today: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/sounding2.curr.%04dlst.d2.png"
-    "EL4":
+    "Lost Hills":
       has_periods: true
       yesterday: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/previous.sounding3.curr.%04dlst.d2.png"
       today: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/sounding3.curr.%04dlst.d2.png"
