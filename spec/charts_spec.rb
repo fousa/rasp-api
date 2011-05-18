@@ -4,6 +4,10 @@ describe 'The charts' do
   include Rack::Test::Methods
 
 	%w(
+		newsouthwales
+		queensland
+		southaustralia
+		hilltown
 		alps
 		avenal13km
 		avenal4km
@@ -17,7 +21,7 @@ describe 'The charts' do
 		baltic
 		centralfrance
 		slovakia
-	).each do |country|
+	).sort.each do |country|
 		it "should validate the links for #{country}" do
 			validate_links_for country
 		end
