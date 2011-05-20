@@ -2,6 +2,7 @@ hilltown:
   config:
     periods: [1100, 1400, 1700]
     only_hours_in_url: false
+    source_url: "http://www.turnpointsolutions.com/blipmaps/HILLTOWN/"
   "Thermal":
     "Thermal Updraft Velocity & B/S Ratio":
       has_periods: true

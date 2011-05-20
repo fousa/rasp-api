@@ -3,6 +3,7 @@ southerncalifornia:
     periods: [1100, 1200, 1300, 1400, 1500, 1600]
     today_periods: [1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900]
     only_hours_in_url: false
+    source_url: "http://www.soaringpredictor.info/rasptable/RASPtable.html"
   "Thermal":
     "Thermal Updraft Velocity & B/S Ratio":
       has_periods: true

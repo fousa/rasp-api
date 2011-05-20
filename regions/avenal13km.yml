@@ -3,6 +3,7 @@ avenal13km:
     periods: [1000, 1100, 1200, 1300]
     yesterday_periods: [1100, 1200, 1300]
     only_hours_in_url: false
+    source_url: "http://alcald.homelinux.org/RASP/AVENAL2/FCST/index.html"
   "Thermal":
     "Thermal Updraft Velocity & B/S Ratio":
       has_periods: true

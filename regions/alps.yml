@@ -2,6 +2,7 @@ alps:
   config:
     periods: [900, 1200, 1500]
     only_hours_in_url: true
+    source_url: "http://www.soaringmeteo.ch/ALPSRasp/ALPSRasp.html"
   "Forecasted charts":
     "Height of BL top":
       has_periods: true

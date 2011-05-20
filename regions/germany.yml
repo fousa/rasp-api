@@ -2,6 +2,7 @@ germany:
   config:
     periods: [700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900]
     only_hours_in_url: false
+    source_url: "http://rasp.linta.de/GERMANY/index_en.html"
   "Thermal":
     "Thermal Updraft Velocity and B/S ratio":
       has_periods: true
