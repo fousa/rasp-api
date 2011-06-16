@@ -1,6 +1,7 @@
-source :rubygems
-
-gem 'sinatra', :git => "git://github.com/sinatra/sinatra.git"
+source "http://rubygems.org"
+gem 'bundler'
+gem 'sinatra'
+gem 'httpclient'
 
 gem 'json'
 gem 'mechanize'

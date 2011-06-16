@@ -4,6 +4,7 @@ describe 'The charts' do
   include Rack::Test::Methods
 
 	%w(
+		uk
 		newsouthwales
 		queensland
 		southaustralia
