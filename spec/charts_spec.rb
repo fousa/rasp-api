@@ -4,10 +4,14 @@ describe 'The charts' do
   include Rack::Test::Methods
 
 	%w(
+		vic
+		qld
+		sa
+		wa
+		nt
+		nsw
+		tas
 		uk
-		newsouthwales
-		queensland
-		southaustralia
 		hilltown
 		alps
 		avenal13km

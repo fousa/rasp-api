@@ -1,4 +1,4 @@
-queensland:
+vic:
   config:
     periods: [800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900]
     only_hours_in_url: false
