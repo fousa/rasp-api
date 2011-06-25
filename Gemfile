@@ -3,6 +3,9 @@ gem 'bundler'
 gem 'sinatra'
 gem 'httpclient'
 
+gem 'mongoid'
+gem 'bson_ext'
+
 gem 'json'
 gem 'mechanize'
 gem 'haml'

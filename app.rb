@@ -3,6 +3,25 @@ require 'sinatra'
 require 'json'
 require 'haml'
 require 'rasp'
+require 'mongoid'
+require 'stat'
+
+configure :production do
+	Mongoid.load!("config/mongoid.yml")
+end
+
+configure :development do
+	Mongoid.configure do |config|
+    name = "demo"
+    host = "localhost"
+    config.master = Mongo::Connection.new.db(name)
+    config.slaves = [
+      Mongo::Connection.new(host, 27017, :slave_ok => true).db(name)
+    ]
+    config.persist_in_safe_mode = false
+  end
+end
+
 
 class App < Sinatra::Base
   set :haml, { :format => :html5 }
@@ -18,6 +37,9 @@ class App < Sinatra::Base
 
   get '/regions/:region' do
     content_type :json, 'charset' => 'utf-8'
+
+		stat = Stat.find_or_create_by( :region => params[:region])
+		stat.update_attribute :total_calls, (stat.total_calls || 0) + 1
 
 		rasp = Rasp.new params[:region]
 		

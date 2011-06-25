@@ -9,64 +9,8 @@
   %body
     %h1 RASP iPhone API
 
-    %h2 Available regions
+    %h2 Regions
 
     %ul
-      %li
-        Africa
-        %ul
-          %li
-            %a{ :href => "/regions/swsouthafrica" } South-West South Africa
-      %li
-        Europe
-        %ul
-          %li
-            %a{ :href => "/regions/alps" } Alps
-          %li
-            %a{ :href => "/regions/baltic" } Baltic Area
-          %li
-            %a{ :href => "/regions/benelux" } Benelux
-          %li 
-            %a{ :href => "/regions/germany" } Germany
-          %li 
-            %a{ :href => "/regions/northfrance" } North/Central France 
-          %li 
-            %a{ :href => "/regions/slovakia" } Slovakia
-          %li 
-            %a{ :href => "/regions/westernswissalps" } Western Swiss Alps
-      %li
-        North-America
-        %ul
-          %li
-            Avenal (
-            %a{ :href => "/regions/avenal13km" } 1.3km 
-            |
-            %a{ :href => "/regions/avenal4km" } 4km 
-            )
-          %li
-            Bryon (
-            %a{ :href => "/regions/bryon750m" } 750m
-            |
-            %a{ :href => "/regions/bryon3km" } 3km 
-            )
-          %li
-            %a{ :href => "/regions/hilltown" } Hilltown
-          %li
-            %a{ :href => "/regions/southerncalifornia" } Southern California
-      %li
-        Australia
-        %ul
-          %li
-            %a{ :href => "/regions/nsw" } New South Wales
-          %li
-            %a{ :href => "/regions/qld" } Queensland
-          %li
-            %a{ :href => "/regions/sa" } South Australia
-          %li
-            %a{ :href => "/regions/wa" } Western Australia
-          %li
-            %a{ :href => "/regions/nt" } Northern Territory
-          %li
-            %a{ :href => "/regions/tas" } Tasmania
-          %li
-            %a{ :href => "/regions/vic" } Victoria
+      - Stat.all(:sort => [[ :total_calls, :desc ]]).each do |stat|
+        %li= "#{ "%04d" % stat.total_calls} #{stat.region}"
