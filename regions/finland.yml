@@ -1,0 +1,195 @@
+finland:
+  config:
+    periods: [600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800]
+    only_hours_in_url: false
+    source_url: "http://www.suio.fi/ennuste/"
+  "Thermal":
+    "Thermal Updraft Velocity & B/S Ratio":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/wstar_bsratio.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/wstar_bsratio.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/wstar_bsratio.curr.%04dlst.d2.png"
+    "Thermal Updraft Velocity (W*)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/wstar.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/wstar.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/wstar.curr.%04dlst.d2.png"
+    "Buoyancy/Shear Ratio":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/bsratio.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/bsratio.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/bsratio.curr.%04dlst.d2.png"
+    "Ht of Critical Updraft Strength (225fpm)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/hwcrit.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/hwcrit.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/hwcrit.curr.%04dlst.d2.png"
+    "Depth of Critical Updraft Strength (AGL Hcrit)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/dwcrit.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/dwcrit.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/dwcrit.curr.%04dlst.d2.png"
+    "BL Top":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/hbl.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/hbl.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/hbl.curr.%04dlst.d2.png"
+    "BL Depth":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/dbl.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/dbl.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/dbl.curr.%04dlst.d2.png"
+    "Thermal Height Uncertainty":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/bltopvariab.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/bltopvariab.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/bltopvariab.curr.%04dlst.d2.png"
+    "MSL Height of max/min Wbl":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/zwblmaxmin.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/zwblmaxmin.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/zwblmaxmin.curr.%04dlst.d2.png"
+    "Sfc.Heating":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sfcshf.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sfcshf.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sfcshf.curr.%04dlst.d2.png"
+    "Normalized Sfc. Sun":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sfcsunpct.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sfcsunpct.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sfcsunpct.curr.%04dlst.d2.png"
+    "Sfc.Temperature":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sfctemp.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sfctemp.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sfctemp.curr.%04dlst.d2.png"
+    "Sfc.Dewpoint":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sfcdewpt.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sfcdewpt.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sfcdewpt.curr.%04dlst.d2.png"
+  "Wind":
+    "MSL Pressure":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/mslpress.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/mslpress.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/mslpress.curr.%04dlst.d2.png"
+    "Sfc.Wind":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sfcwind.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sfcwind.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sfcwind.curr.%04dlst.d2.png"
+    "BL Avg. Wind":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/blwind.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/blwind.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/blwind.curr.%04dlst.d2.png"
+    "Wind at BL Top":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/bltopwind.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/bltopwind.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/bltopwind.curr.%04dlst.d2.png"
+    "BL Wind Shear":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/blwindshear.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/blwindshear.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/blwindshear.curr.%04dlst.d2.png"
+    "BL Max. Up/Down (Convergence)":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/wblmaxmin.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/wblmaxmin.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/wblmaxmin.curr.%04dlst.d2.png"
+  "Clouds":
+    "Cu Potential":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/zsfclcldif.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/zsfclcldif.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/zsfclcldif.curr.%04dlst.d2.png"
+    "Cu Cloudbase (Sfc.LCL) MSL":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/zsfclcl.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/zsfclcl.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/zsfclcl.curr.%04dlst.d2.png"
+    "Cu Cloudbase where CuPotential>0":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/zsfclclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/zsfclclmask.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/zsfclclmask.curr.%04dlst.d2.png"
+    "OD Potential":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/zblcldif.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/zblcldif.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/zblcldif.curr.%04dlst.d2.png"
+    "OD Cloudbase (BL CL) MSL":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/zblcl.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/zblcl.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/zblcl.curr.%04dlst.d2.png"
+    "OD Cloudbase where ODpotential>0":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/zblclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/zblclmask.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/zblclmask.curr.%04dlst.d2.png"
+    "BL Explicitly-predicted CloudWater":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/blcwbase.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/blcwbase.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/blcwbase.curr.%04dlst.d2.png"
+    "BL Cloud Cover":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/blcloudpct.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/blcloudpct.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/blcloudpct.curr.%04dlst.d2.png"
+    "Rain":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/rain3.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/rain3.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/rain3.curr.%04dlst.d2.png"
+    "CAPE":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/cape.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/cape.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/cape.curr.%04dlst.d2.png"
+  "Wave/Upper-level":
+    "Vertical Velocity at 850 mb":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/press850.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/press850.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/press850.curr.%04dlst.d2.png"
+    "Vertical Velocity at 700 mb":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/press700.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/press700.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/press700.curr.%04dlst.d2.png"
+    "Vertical Velocity at 500 mb":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/press500.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/press500.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/press500.curr.%04dlst.d2.png"
+    "Vert.Velocity Slice at Vert.Vel.Max":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/boxwmax.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/boxwmax.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/boxwmax.curr.%04dlst.d2.png"
+  "Soundings and locations":
+    "1 Luotaus":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sounding1.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sounding1.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sounding1.curr.%04dlst.d2.png"
+    "2 Luotaus":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sounding2.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sounding2.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sounding2.curr.%04dlst.d2.png"
+    "3 Luotaus":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sounding3.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sounding3.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sounding3.curr.%04dlst.d2.png"
+    "4 Luotaus":
+      has_periods: true
+      today: "http://www.urheiluilmailuopisto.fi/ennuste/sounding4.curr.%04dlst.d2.png"
+      tomorrow: "http://www.urheiluilmailuopisto.fi/ennuste/2/sounding4.curr.%04dlst.d2.png"
+      the_day_after: "http://www.urheiluilmailuopisto.fi/ennuste/3/sounding4.curr.%04dlst.d2.png"
