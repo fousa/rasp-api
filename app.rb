@@ -37,6 +37,7 @@ class App < Sinatra::Base
 
   get '/regions/:region' do
     content_type :json, 'charset' => 'utf-8'
+    headers 'Access-Control-Allow-Origin' => '*'
 
 		stat = Stat.find_or_create_by( :region => params[:region])
 		stat.update_attribute :total_calls, (stat.total_calls || 0) + 1
