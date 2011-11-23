@@ -2,9 +2,9 @@ require 'rubygems'
 require 'sinatra'
 require 'json'
 require 'haml'
-require 'rasp'
+require './rasp.rb'
 require 'mongoid'
-require 'stat'
+require './stat.rb'
 
 configure :production do
 	Mongoid.load!("config/mongoid.yml")
