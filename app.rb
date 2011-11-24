@@ -3,25 +3,6 @@ require 'sinatra'
 require 'json'
 require 'haml'
 require './rasp.rb'
-require 'mongoid'
-require './stat.rb'
-
-configure :production do
-	Mongoid.load!("config/mongoid.yml")
-end
-
-configure :development do
-	Mongoid.configure do |config|
-    name = "demo"
-    host = "localhost"
-    config.master = Mongo::Connection.new.db(name)
-    config.slaves = [
-      Mongo::Connection.new(host, 27017, :slave_ok => true).db(name)
-    ]
-    config.persist_in_safe_mode = false
-  end
-end
-
 
 class App < Sinatra::Base
   set :haml, { :format => :html5 }
@@ -39,12 +20,9 @@ class App < Sinatra::Base
     content_type :json, 'charset' => 'utf-8'
     headers 'Access-Control-Allow-Origin' => '*'
 
-		stat = Stat.find_or_create_by( :region => params[:region])
-		stat.update_attribute :total_calls, (stat.total_calls || 0) + 1
-
-		rasp = Rasp.new params[:region]
+    rasp = Rasp.new params[:region]
 		
-		halt 400, { :error => "Region incorrect or not supplied" }.to_json unless rasp.exists?
+    halt 400, { :error => "Region incorrect or not supplied" }.to_json unless rasp.exists?
 
     rasp.charts.to_json
   end
