@@ -1,26 +1,7 @@
 require 'json'
 require 'yaml'
 
-class Rasp
-	attr_accessor :region
-
-	def initialize(region)
-		self.region  = region
-	end
-
-	def exists?
-		self.region && File.exist?(region_yml)
-	end
-
-	def charts
-		charts = YAML.load(File.read(region_yml))[self.region]
-        charts_with_urls(charts)
-	end
-
-	def region_yml
-		"regions/#{self.region}.yml"
-	end
-
+class Uk < Rasp
 	def charts_with_urls(charts)
 		charts.keys.each do |header|
 			unless header == "config"
@@ -33,6 +14,7 @@ class Rasp
 							if has_periods
 								periods = charts["config"]["#{day}_periods"] || charts["config"]["periods"]
 								periods.each do |period|
+									url = url.gsub("%@", day_replacement(day))
 									if charts["config"]["only_hours_in_url"]
 										link = url.gsub("%02d", "%02d" % (period/100))
 									else
@@ -51,4 +33,22 @@ class Rasp
 		end
 		charts
 	end
+
+	def day_replacement(day)
+		time = Time.now
+
+		if day == "today"
+			"UK12" 
+		elsif day == "yesterday"
+			time -= 60*60*24 
+			time.strftime("%A")
+		elsif day == "tomorrow"
+			time += 60*60*24 
+			time.strftime("%A")
+		else
+			time += 60*60*24*2
+			time.strftime("%A")
+		end
+	end
 end
+

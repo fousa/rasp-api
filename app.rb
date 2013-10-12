@@ -3,6 +3,7 @@ require 'sinatra'
 require 'json'
 require 'haml'
 require './rasp.rb'
+require './uk.rb'
 
 class App < Sinatra::Base
   set :haml, { :format => :html5 }
@@ -20,7 +21,9 @@ class App < Sinatra::Base
     content_type :json, 'charset' => 'utf-8'
     headers 'Access-Control-Allow-Origin' => '*'
 
-    rasp = Rasp.new params[:region]
+    class_name = Rasp
+    class_name = Uk if params[:region] == "uk"
+    rasp = class_name.new params[:region]
 		
     halt 400, { :error => "Region incorrect or not supplied" }.to_json unless rasp.exists?
 
