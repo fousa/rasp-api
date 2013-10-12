@@ -1,6 +1,6 @@
 jaca:
   config:
-    periods: [600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800]
+    periods: [700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800]
     only_hours_in_url: false
     source_url: "http://www.suio.fi/ennuste/jaca"
   "Thermal":

@@ -7,269 +7,184 @@ southerncalifornia:
   "Thermal":
     "Thermal Updraft Velocity & B/S Ratio":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.wstar_bsratio.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/wstar_bsratio.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/wstar_bsratio.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/wstar_bsratio.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.wstar_bsratio.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/wstar_bsratio.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/wstar_bsratio.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/wstar_bsratio.curr+2.%04dlst.d2.body.png"
     "Thermal Updraft Velocity (W*)":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.wstar.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/wstar.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/wstar.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/wstar.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.wstar.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/wstar.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/wstar.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/wstar.curr+2.%04dlst.d2.body.png"
     "Buoyancy/Shear Ratio":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.bsratio.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/bsratio.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/bsratio.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/bsratio.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.bsratio.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/bsratio.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/bsratio.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/bsratio.curr+2.%04dlst.d2.body.png"
     "Ht of Critical Updraft Strength (Hcrit)":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.hwcrit.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/hwcrit.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/hwcrit.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/hwcrit.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.hwcrit.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/hwcrit.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/hwcrit.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/hwcrit.curr+2.%04dlst.d2.body.png"
     "Depth of Critical Updraft Strength (AGL Hcrit)":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.dwcrit.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/dwcrit.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/dwcrit.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/dwcrit.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.dwcrit.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/dwcrit.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/dwcrit.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/dwcrit.curr+2.%04dlst.d2.body.png"
     "BL Top":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.hbl.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/hbl.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/hbl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/hbl.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.hbl.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/hbl.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/hbl.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/hbl.curr+2.%04dlst.d2.body.png"
     "BL Depth":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.dbl.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/dbl.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/dbl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/dbl.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.dbl.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/dbl.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/dbl.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/dbl.curr+2.%04dlst.d2.body.png"
     "Thermal Height Uncertainty":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.bltopvariab.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/bltopvariab.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/bltopvariab.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/bltopvariab.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.bltopvariab.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/bltopvariab.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/bltopvariab.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/bltopvariab.curr+2.%04dlst.d2.body.png"
     "MSL Height of max/min Wbl":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.zwblmaxmin.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/zwblmaxmin.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/zwblmaxmin.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/zwblmaxmin.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.zwblmaxmin.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/zwblmaxmin.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/zwblmaxmin.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/zwblmaxmin.curr+2.%04dlst.d2.body.png"
     "Sfc.Heating":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sfcshf.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sfcshf.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sfcshf.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sfcshf.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.sfcshf.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/sfcshf.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/sfcshf.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/sfcshf.curr+2.%04dlst.d2.body.png"
     "Normalized Sfc. Sun":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sfcsunpct.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sfcsunpct.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sfcsunpct.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sfcsunpct.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.sfcsunpct.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/sfcsunpct.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/sfcsunpct.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/sfcsunpct.curr+2.%04dlst.d2.body.png"
     "Sfc.Temperature":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sfctemp.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sfctemp.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sfctemp.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sfctemp.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.sfctemp.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/sfctemp.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/sfctemp.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/sfctemp.curr+2.%04dlst.d2.body.png"
     "Sfc.Dewpoint":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sfcdewpt.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sfcdewpt.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sfcdewpt.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sfcdewpt.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.sfcdewpt.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/sfcdewpt.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/sfcdewpt.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/sfcdewpt.curr+2.%04dlst.d2.body.png"
   "Wind":
     "Sfc.Wind":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sfcwind.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sfcwind.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sfcwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sfcwind.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.sfcwind.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/sfcwind.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/sfcwind.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/sfcwind.curr+2.%04dlst.d2.body.png"
     "BL Avg. Wind":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.blwind.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/blwind.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/blwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/blwind.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.blwind.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/blwind.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/blwind.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/blwind.curr+2.%04dlst.d2.body.png"
     "Wind at BL Top":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.bltopwind.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/bltopwind.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/bltopwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/bltopwind.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.bltopwind.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/bltopwind.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/bltopwind.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/bltopwind.curr+2.%04dlst.d2.body.png"
     "BL Wind Shear":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.blwindshear.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/blwindshear.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/blwindshear.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/blwindshear.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.blwindshear.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/blwindshear.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/blwindshear.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/blwindshear.curr+2.%04dlst.d2.body.png"
     "BL Max. Up/Down (Convergence)":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.wblmaxmin.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/wblmaxmin.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/wblmaxmin.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/wblmaxmin.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.wblmaxmin.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/wblmaxmin.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/wblmaxmin.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/wblmaxmin.curr+2.%04dlst.d2.body.png"
   "Cloud":
     "Cu Potential":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.zsfclcldif.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/zsfclcldif.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/zsfclcldif.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/zsfclcldif.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.zsfclcldif.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/zsfclcldif.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/zsfclcldif.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/zsfclcldif.curr+2.%04dlst.d2.body.png"
     "Cu Cloudbase (Sfc.LCL) MSL":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.zsfclcl.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/zsfclcl.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/zsfclcl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/zsfclcl.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.zsfclcl.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/zsfclcl.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/zsfclcl.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/zsfclcl.curr+2.%04dlst.d2.body.png"
     "Cu Cloudbase where CuPotential > 0":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.zsfclcl.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/zsfclcl.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/zsfclcl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/zsfclcl.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.zsfclcl.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/zsfclcl.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/zsfclcl.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/zsfclcl.curr+2.%04dlst.d2.body.png"
     "OD Potential":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.zblcldif.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/zblcldif.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/zblcldif.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/zblcldif.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.zblcldif.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/zblcldif.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/zblcldif.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/zblcldif.curr+2.%04dlst.d2.body.png"
     "OD Cloudbase (BL CL) MSL":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.zblcl.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/zblcl.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/zblcl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/zblcl.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.zblcl.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/zblcl.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/zblcl.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/zblcl.curr+2.%04dlst.d2.body.png"
     "OD Cloudbase where ODpotential > 0":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.zblclmask.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/zblclmask.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/zblclmask.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/zblclmask.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.zblclmask.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/zblclmask.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/zblclmask.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/zblclmask.curr+2.%04dlst.d2.body.png"
     "BL Explicitly-predicted CloudWater":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.blcwbase.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/blcwbase.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/blcwbase.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/blcwbase.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.blcwbase.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/blcwbase.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/blcwbase.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/blcwbase.curr+2.%04dlst.d2.body.png"
     "BL Cloud Cover":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.blcloudpct.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/blcloudpct.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/blcloudpct.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/blcloudpct.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.blcloudpct.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/blcloudpct.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/blcloudpct.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/blcloudpct.curr+2.%04dlst.d2.body.png"
     "CAPE":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.cape.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/cape.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/cape.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/cape.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.cape.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/cape.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/cape.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/cape.curr+2.%04dlst.d2.body.png"
   "Wave":
     "Vertical Velocity at 850mb":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.press850.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/press850.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/press850.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/press850.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.press850.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/press850.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/press850.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/press850.curr+2.%04dlst.d2.body.png"
     "Vertical Velocity at 700mb":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.press700.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/press700.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/press700.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/press700.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.press700.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/press700.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/press700.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/press700.curr+2.%04dlst.d2.body.png"
     "Vertical Velocity at 500mb":
       has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.press500.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/press500.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/press500.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/press500.curr+2.%04dlst.d2.png"
-    "Vert.Velocity Slice at Vert.Vel.Max":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.boxwmax.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/boxwmax.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/boxwmax.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/boxwmax.curr+2.%04dlst.d2.png"
-  "Soundings":
-    "Kagel":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding1.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding1.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding1.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding1.curr+2.%04dlst.d2.png"
-    "Crestline":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding2.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding2.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding2.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding2.curr+2.%04dlst.d2.png"
-    "Marshall":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding3.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding3.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding3.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding3.curr+2.%04dlst.d2.png"
-    "Soboba":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding4.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding4.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding4.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding4.curr+2.%04dlst.d2.png"
-    "Elsinore":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding5.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding5.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding5.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding5.curr+2.%04dlst.d2.png"
-    "Palomar":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding6.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding6.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding6.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding6.curr+2.%04dlst.d2.png"
-    "Big Black":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding7.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding7.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding7.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding7.curr+2.%04dlst.d2.png"
-    "Little Black":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding8.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding8.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding8.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding8.curr+2.%04dlst.d2.png"
-    "Torrey":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding9.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding9.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding9.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding9.curr+2.%04dlst.d2.png"
-    "Blossom":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding10.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding10.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding10.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding10.curr+2.%04dlst.d2.png"
-    "Laguna":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding11.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding11.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding11.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding11.curr+2.%04dlst.d2.png"
-    "Horse":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding12.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding12.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding12.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding12.curr+2.%04dlst.d2.png"
-    "Otay Mesa":
-      has_periods: true
-      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/previous.sounding13.curr.%04dlst.d2.png"
-      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/sounding13.curr.%04dlst.d2.png"
-      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/sounding13.curr+1.%04dlst.d2.png"
-      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/sounding13.curr+2.%04dlst.d2.png"
+      yesterday: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/previous.press500.curr.%04dlst.d2.body.png"
+      today: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL/FCST/GM/press500.curr.%04dlst.d2.body.png"
+      tomorrow: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+1/FCST/GM/press500.curr+1.%04dlst.d2.body.png"
+      the_day_after: "http://www.soaringpredictor.com/RASP/HTML/S_SCAL+2/FCST/GM/press500.curr+2.%04dlst.d2.body.png"

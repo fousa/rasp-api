@@ -6,178 +6,178 @@ bryon750m:
   "Thermal":
     "Thermal Updraft Velocity & B/S Ratio":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.wstar_bsratio.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?wstar_bsratio.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.wstar_bsratio.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/wstar_bsratio.curr.%04dlst.w2.png"
     "Thermal Updraft Velocity (W*)":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.wstar.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?wstar.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.wstar.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/wstar.curr.%04dlst.w2.png"
     "Buoyancy/Shear Ratio":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.bsratio.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?bsratio.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.bsratio.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/bsratio.curr.%04dlst.w2.png"
     "Ht of Critical Updraft Strength (Hcrit)":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.hwcrit.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?hwcrit.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.hwcrit.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/hwcrit.curr.%04dlst.w2.png"
     "Depth of Critical Updraft Strength (AGL Hcrit)":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.dwcrit.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?dwcrit.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.dwcrit.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/dwcrit.curr.%04dlst.w2.png"
     "BL Top":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.hbl.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?hbl.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.hbl.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/hbl.curr.%04dlst.w2.png"
     "BL Depth":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.dbl.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?dbl.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.dbl.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/dbl.curr.%04dlst.w2.png"
     "Thermal Height Uncertainty":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.bltopvariab.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?bltopvariab.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.bltopvariab.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/bltopvariab.curr.%04dlst.w2.png"
     "Sfc.Heating":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sfcshf.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sfcshf.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sfcshf.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sfcshf.curr.%04dlst.w2.png"
     "Normalized Sfc. Sun":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sfcsunpct.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sfcsunpct.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sfcsunpct.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sfcsunpct.curr.%04dlst.w2.png"
     "Sfc.Temperature":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sfctemp.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sfctemp.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sfctemp.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sfctemp.curr.%04dlst.w2.png"
   "Wind":
     "Sfc.Wind":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sfcwind.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sfcwind.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sfcwind.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sfcwind.curr.%04dlst.w2.png"
     "BL Avg. Wind":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.blwind.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?blwind.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.blwind.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/blwind.curr.%04dlst.w2.png"
     "Wind at BL Top":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.bltopwind.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?bltopwind.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.bltopwind.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/bltopwind.curr.%04dlst.w2.png"
     "BL Wind Shear":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.blwindshear.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?blwindshear.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.blwindshear.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/blwindshear.curr.%04dlst.w2.png"
     "BL Max. Up/Down (Convergence)":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.wblmaxmin.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?wblmaxmin.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.wblmaxmin.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/wblmaxmin.curr.%04dlst.w2.png"
   "Cloud":
     "Cu Potential":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.zsfclcldif.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?zsfclcldif.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.zsfclcldif.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/zsfclcldif.curr.%04dlst.w2.png"
     "Cu Cloudbase (Sfc.LCL) MSL":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.zsfclcl.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?zsfclcl.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.zsfclcl.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/zsfclcl.curr.%04dlst.w2.png"
     "Cu Cloudbase where CuPotential > 0":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.zsfclcl.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?zsfclcl.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.zsfclcl.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/zsfclcl.curr.%04dlst.w2.png"
     "OD Potential":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.zblcldif.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?zblcldif.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.zblcldif.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/zblcldif.curr.%04dlst.w2.png"
     "OD Cloudbase (BL CL) MSL":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.zblcl.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?zblcl.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.zblcl.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/zblcl.curr.%04dlst.w2.png"
     "OD Cloudbase where ODpotential > 0":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.zblclmask.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?zblclmask.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.zblclmask.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/zblclmask.curr.%04dlst.w2.png"
     "BL Explicitly-predicted CloudWater":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.blcwbase.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?blcwbase.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.blcwbase.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/blcwbase.curr.%04dlst.w2.png"
     "BL Cloud Cover":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.blcloudpct.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?blcloudpct.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.blcloudpct.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/blcloudpct.curr.%04dlst.w2.png"
     "Sfc. Dew Point Temperature":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sfcdewpt.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sfcdewpt.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sfcdewpt.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sfcdewpt.curr.%04dlst.w2.png"
     "CAPE":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.cape.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?cape.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.cape.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/cape.curr.%04dlst.w2.png"
   "Wave":
     "Vertical Velocity at 850mb":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.press850.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?press850.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.press850.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/press850.curr.%04dlst.w2.png"
     "Vertical Velocity at 700mb":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.press700.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?press700.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.press700.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/press700.curr.%04dlst.w2.png"
     "Vertical Velocity at 500mb":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.press500.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?press500.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.press500.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/press500.curr.%04dlst.w2.png"
     "Vert.Velocity Slice at Vert.Vel.Max":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.boxwmax.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?boxwmax.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.boxwmax.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/boxwmax.curr.%04dlst.w2.png"
   "Soundings":
     "Byron (C83)":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding1.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding1.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding1.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding1.curr.%04dlst.w2.png"
     "Rel1":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding2.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding2.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding2.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding2.curr.%04dlst.w2.png"
     "Rel2":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding3.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding3.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding3.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding3.curr.%04dlst.w2.png"
     "Mtn Oso":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding4.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding4.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding4.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding4.curr.%04dlst.w2.png"
     "San Antonio Vly":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding5.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding5.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding5.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding5.curr.%04dlst.w2.png"
     "Mtn Diablo":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding6.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding6.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding6.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding6.curr.%04dlst.w2.png"
     "EL1":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding7.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding7.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding7.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding7.curr.%04dlst.w2.png"
     "Tracy":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding8.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding8.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding8.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding8.curr.%04dlst.w2.png"
     "Henrietta":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.sounding9.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?sounding9.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.sounding9.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/sounding9.curr.%04dlst.w2.png"
   "Mt.Peak Wind-Parallel Cross-Sections":
     "Mtn Diablo":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.xbl_-121.92_37.88_windk_14.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?xbl_-121.92_37.88_windk_14.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.xbl_-121.92_37.88_windk_14.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/xbl_-121.92_37.88_windk_14.curr.%04dlst.w2.png"
     "Brushy Top":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.xbl_-121.32_36.91_windk_14.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?xbl_-121.32_36.91_windk_14.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.xbl_-121.32_36.91_windk_14.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/xbl_-121.32_36.91_windk_14.curr.%04dlst.w2.png"
     "Mt. Hamilton":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.xbl_-121.86_37.37_windk_14.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?xbl_-121.86_37.37_windk_14.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.xbl_-121.86_37.37_windk_14.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/xbl_-121.86_37.37_windk_14.curr.%04dlst.w2.png"
     "Loma Prieta":
       has_periods: true
-      yesterday: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?previous.xbl_-121.53_37.12_windk_14.curr.%04dlst.w2.png"
-      today: "http://www.norcalsoaring.org/BLIP/BYRON/m.cgi?xbl_-121.53_37.12_windk_14.curr.%04dlst.w2.png"
+      yesterday: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/previous.xbl_-121.53_37.12_windk_14.curr.%04dlst.w2.png"
+      today: "http://raspbucket.s3-website-us-west-2.amazonaws.com/BYRON/FCST/xbl_-121.53_37.12_windk_14.curr.%04dlst.w2.png"

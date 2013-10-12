@@ -8,227 +8,227 @@ newsouthwales:
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.wstar_bsratio.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wstar_bsratio.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wstar_bsratio.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wstar_bsratio.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/wstar_bsratio.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/wstar_bsratio.curr+2.%04dlst.d2.png"
     "Thermal Updraft Velocity":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.wstar.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wstar.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wstar.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wstar.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/wstar.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/wstar.curr+2.%04dlst.d2.png"
     "Buoyancy/Shear Ratio":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.bsratio.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bsratio.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bsratio.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bsratio.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/bsratio.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/bsratio.curr+2.%04dlst.d2.png"
     "Ht of Critical Updraft Strength (Hcrit)":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.hwcrit.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/hwcrit.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/hwcrit.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/hwcrit.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/hwcrit.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/hwcrit.curr+2.%04dlst.d2.png"
     "Hcrit for 175fpm (experimental)":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.experimental1.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/experimental1.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/experimental1.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/experimental1.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/experimental1.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/experimental1.curr+2.%04dlst.d2.png"
     "Depth of Critical Hcrit (AGL Hcrit)":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.dwcrit.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/dwcrit.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/dwcrit.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/dwcrit.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/dwcrit.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/dwcrit.curr+2.%04dlst.d2.png"
     "BL Top Height":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.hbl.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/hbl.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/hbl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/hbl.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/hbl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/hbl.curr+2.%04dlst.d2.png"
     "BL Depth":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.dbl.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/dbl.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/dbl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/dbl.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/dbl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/dbl.curr+2.%04dlst.d2.png"
     "Thermal Height Variability":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.bltopvariab.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bltopvariab.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bltopvariab.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bltopvariab.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/bltopvariab.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/bltopvariab.curr+2.%04dlst.d2.png"
     "Surface Heating":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sfcshf.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcshf.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcshf.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcshf.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sfcshf.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sfcshf.curr+2.%04dlst.d2.png"
     "Normalized Surface Sun":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sfcsunpct.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcsunpct.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcsunpct.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcsunpct.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sfcsunpct.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sfcsunpct.curr+2.%04dlst.d2.png"
     "Sfc.Temperature":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sfctemp.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfctemp.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfctemp.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfctemp.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sfctemp.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sfctemp.curr+2.%04dlst.d2.png"
   "Wind":
     "Sfc.Wind":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sfcwind.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcwind.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcwind.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sfcwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sfcwind.curr+2.%04dlst.d2.png"
     "BL Avg. Wind":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.blwind.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blwind.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blwind.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/blwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/blwind.curr+2.%04dlst.d2.png"
     "BL Top Wind":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.bltopwind.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bltopwind.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bltopwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/bltopwind.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/bltopwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/bltopwind.curr+2.%04dlst.d2.png"
     "BL Vertical Wind Shear":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.blwindshear.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blwindshear.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blwindshear.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blwindshear.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/blwindshear.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/blwindshear.curr+2.%04dlst.d2.png"
     "BL Max. Up/Down Motion":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.wblmaxmin.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wblmaxmin.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wblmaxmin.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/wblmaxmin.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/wblmaxmin.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/wblmaxmin.curr+2.%04dlst.d2.png"
   "Cloud":
     "Cu Potential":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.zsfclcldif.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclcldif.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclcldif.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclcldif.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/zsfclcldif.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/zsfclcldif.curr+2.%04dlst.d2.png"
     "Cu Cloudbase":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.zsfclcl.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclcl.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclcl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclcl.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/zsfclcl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/zsfclcl.curr+2.%04dlst.d2.png"
     "Cu Cloudbase where CuPotential > 0":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.zsfclclmask.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclclmask.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclclmask.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zsfclclmask.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/zsfclclmask.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/zsfclclmask.curr+2.%04dlst.d2.png"
     "OD Potential":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.zblcldif.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblcldif.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblcldif.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblcldif.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/zblcldif.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/zblcldif.curr+2.%04dlst.d2.png"
     "OD Cloudbase":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.zblcl.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblcl.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblcl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblcl.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/zblcl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/zblcl.curr+2.%04dlst.d2.png"
     "OD Cloudbase where ODpotential > 0":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.zblclmask.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblclmask.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblclmask.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/zblclmask.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/zblclmask.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/zblclmask.curr+2.%04dlst.d2.png"
     "BL Cloud Cover":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.blcloudpct.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blcloudpct.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blcloudpct.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/blcloudpct.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/blcloudpct.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/blcloudpct.curr+2.%04dlst.d2.png"
     "Sfc. Dew Point Temp.":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sfcdewpt.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcdewpt.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcdewpt.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sfcdewpt.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sfcdewpt.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sfcdewpt.curr+2.%04dlst.d2.png"
     "CAPE":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.cape.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/cape.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/cape.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/cape.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/cape.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/cape.curr+2.%04dlst.d2.png"
   "Wave":
     "Vertical Velocity at 850mb":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.press850.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press850.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press850.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press850.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/press850.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/press850.curr+2.%04dlst.d2.png"
     "Vertical Velocity at 700mb":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.press700.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press700.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press700.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press700.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/press700.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/press700.curr+2.%04dlst.d2.png"
     "Vertical Velocity at 500mb":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.press500.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press500.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press500.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/press500.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/press500.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/press500.curr+2.%04dlst.d2.png"
     "Vert.Velocity Slice at Vert.Vel.Max":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.boxwmax.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/boxwmax.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/boxwmax.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/boxwmax.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/boxwmax.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/boxwmax.curr+2.%04dlst.d2.png"
   "Soundings":
     "Camden":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sounding1.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding1.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding1.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding1.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sounding1.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sounding1.curr+2.%04dlst.d2.png"
     "Temora":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sounding2.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding2.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding2.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding2.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sounding2.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sounding2.curr+2.%04dlst.d2.png"
     "Narromine":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sounding3.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding3.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding3.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding3.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sounding3.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sounding3.curr+2.%04dlst.d2.png"
     "Keepit":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sounding4.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding4.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding4.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding4.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sounding4.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sounding4.curr+2.%04dlst.d2.png"
     "Forbes":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sounding5.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding5.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding5.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding5.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sounding5.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sounding5.curr+2.%04dlst.d2.png"
     "Bathurst":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sounding6.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding6.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding6.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding6.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sounding6.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sounding6.curr+2.%04dlst.d2.png"
     "Richmond":
       has_periods: true
       yesterday: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/previous.sounding12.curr.%04dlst.d2.png"
       today: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding12.curr.%04dlst.d2.png"
-      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding12.curr+1.%04dlst.d2.png"
-      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES/FCST/sounding12.curr+2.%04dlst.d2.png"
+      tomorrow: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+1/FCST/sounding12.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.walsys.net/UNI/NEWSOUTHWALES+2/FCST/sounding12.curr+2.%04dlst.d2.png"
 
 

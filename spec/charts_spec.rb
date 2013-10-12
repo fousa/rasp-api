@@ -47,7 +47,9 @@ describe 'The charts' do
 end
 
 def validate_links_for(country)
-    rasp = Rasp.new country
+    class_name = Rasp
+    #class_name = Uk if country == "uk"
+    rasp = class_name.new country
     charts = rasp.charts
     puts "\n======> #{country}"
     charts.keys.each do |header|

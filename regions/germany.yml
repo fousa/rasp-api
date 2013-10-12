@@ -9,236 +9,192 @@ germany:
       yesterday: "http://rasp.linta.de/GERMANY/previous.wstar_bsratio.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/wstar_bsratio.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/wstar_bsratio.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/wstar_bsratio.curr+2.%04dlst.d2.png"
     "Thermal Updraft Velocity (W*)":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.wstar.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/wstar.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/wstar.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/wstar.curr+2.%04dlst.d2.png"
     "Buoyancy/Shear ratio (B/S)":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.bsratio.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/bsratio.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/bsratio.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/bsratio.curr+2.%04dlst.d2.png"
     "Height of Critical Updraft Strength (MSL Hcrit)":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.hwcrit.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/hwcrit.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/hwcrit.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/hwcrit.curr+2.%04dlst.d2.png"
     "Depth of Critical Updraft Strength (AGL Hcrit)":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.dwcrit.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/dwcrit.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/dwcrit.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/dwcrit.curr+2.%04dlst.d2.png"
     "BL Top":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.hbl.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/hbl.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/hbl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/hbl.curr+2.%04dlst.d2.png"
     "BL Depth":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.dbl.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/dbl.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/dbl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/dbl.curr+2.%04dlst.d2.png"
-    "Thermal Height Uncertainty":
-      has_periods: true
-      yesterday: "http://rasp.linta.de/GERMANY/previous.bltopvariab.curr.%04dlst.d2.png"
-      today: "http://rasp.linta.de/GERMANY/bltopvariab.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.linta.de/GERMANY/bltopvariab.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/bltopvariab.curr+2.%04dlst.d2.png"
     "Sfc. Heating":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sfcshf.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sfcshf.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sfcshf.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sfcshf.curr+2.%04dlst.d2.png"
     "Normalized Sfc. Sun":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sfcsunpct.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sfcsunpct.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sfcsunpct.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sfcsunpct.curr+2.%04dlst.d2.png"
     "Sfc. Sun":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sfcsun.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sfcsun.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sfcsun.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sfcsun.curr+2.%04dlst.d2.png"
     "Sfc. Temperature":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sfctemp.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sfctemp.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sfctemp.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sfctemp.curr+2.%04dlst.d2.png"
   "Wind":
     "Sfc. Wind":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sfcwind.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sfcwind.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sfcwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sfcwind.curr+2.%04dlst.d2.png"
     "BL Avg. Wind":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.blwind.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/blwind.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/blwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/blwind.curr+2.%04dlst.d2.png"
     "Wind at BL Top":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.bltopwind.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/bltopwind.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/bltopwind.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/bltopwind.curr+2.%04dlst.d2.png"
     "BL Wind Shear":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.blwindshear.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/blwindshear.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/blwindshear.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/blwindshear.curr+2.%04dlst.d2.png"
     "BL Max. Up/Down (Convergence)":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.wblmaxmin.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/wblmaxmin.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/wblmaxmin.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/wblmaxmin.curr+2.%04dlst.d2.png"
   "Upper Level":
     "Surface Pressure":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.mslpress.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/mslpress.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/mslpress.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/mslpress.curr+2.%04dlst.d2.png"
     "Vertical Velocity at 850 hPa":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.press850.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/press850.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/press850.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/press850.curr+2.%04dlst.d2.png"
     "Vertical Velocity at 700 hPa":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.press700.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/press700.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/press700.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/press700.curr+2.%04dlst.d2.png"
     "Vertical Velocity at 500 hPa":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.press500.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/press500.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/press500.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/press500.curr+2.%04dlst.d2.png"
   "Cloud":
     "Cu Potential":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.zsfclcldif.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/zsfclcldif.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/zsfclcldif.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/zsfclcldif.curr+2.%04dlst.d2.png"
     "Cu Cloudbase (Sfc.LCL) [MSL]":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.zsfclcl.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/zsfclcl.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/zsfclcl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/zsfclcl.curr+2.%04dlst.d2.png"
     "Cu Cloudbase where Cu Potential>0":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.zsfclclmask.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/zsfclclmask.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/zsfclclmask.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/zsfclclmask.curr+2.%04dlst.d2.png"
     "Overdevelopement Potential":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.zblcldif.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/zblcldif.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/zblcldif.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/zblcldif.curr+2.%04dlst.d2.png"
     "OD Cloudbase (BL CL) [MSL]":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.zblcl.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/zblcl.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/zblcl.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/zblcl.curr+2.%04dlst.d2.png"
     "OD Cloudbase where OD Potential>0":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.zblclmask.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/zblclmask.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/zblclmask.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/zblclmask.curr+2.%04dlst.d2.png"
     "BL Cloudcover":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.blcloudpct.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/blcloudpct.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/blcloudpct.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/blcloudpct.curr+2.%04dlst.d2.png"
     "Sfc. Dew Point Temperature":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sfcdewpt.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sfcdewpt.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sfcdewpt.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sfcdewpt.curr+2.%04dlst.d2.png"
     "CAPE":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.cape.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/cape.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/cape.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/cape.curr+2.%04dlst.d2.png"
     "1-Hour Rain":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.rain1.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/rain1.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/rain1.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/rain1.curr+2.%04dlst.d2.png"
     "3-Hour Rain":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.rain3.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/rain3.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/rain3.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/rain3.curr+2.%04dlst.d2.png"
   "Soundings":
     "Düsseldorf":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sounding1.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sounding1.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sounding1.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sounding1.curr+2.%04dlst.d2.png"
     "Mendig":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sounding2.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sounding2.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sounding2.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sounding2.curr+2.%04dlst.d2.png"
     "Oldenburg":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sounding3.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sounding3.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sounding3.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sounding3.curr+2.%04dlst.d2.png"
     "Ludwigshafen":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sounding4.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sounding4.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sounding4.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sounding4.curr+2.%04dlst.d2.png"
     "Pirna":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sounding5.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sounding5.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sounding5.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sounding5.curr+2.%04dlst.d2.png"
     "Lüsse":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sounding6.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sounding6.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sounding6.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sounding6.curr+2.%04dlst.d2.png"
     "Offenburg":
       has_periods: true
       yesterday: "http://rasp.linta.de/GERMANY/previous.sounding7.curr.%04dlst.d2.png"
       today: "http://rasp.linta.de/GERMANY/sounding7.curr.%04dlst.d2.png"
       tomorrow: "http://rasp.linta.de/GERMANY/sounding7.curr+1.%04dlst.d2.png"
-      the_day_after: "http://rasp.linta.de/GERMANY/sounding7.curr+2.%04dlst.d2.png"

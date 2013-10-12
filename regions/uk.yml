@@ -6,148 +6,124 @@ uk:
   "Thermal":
     "Thermal Updraft Velocity (W*)":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wstar.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wstar.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wstar.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wstar.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/wstar.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/wstar.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/wstar.curr.%04dlst.d2.body.png"
     "Ht of Critical Updraft Strength (175fpm)":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/experimental1.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/experimental1.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/experimental1.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/experimental1.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/experimental1.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/experimental1.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/experimental1.curr.%04dlst.d2.body.png"
     "Normalized Sfc. Sun":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcsunpct.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcsunpct.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcsunpct.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcsunpct.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sfcsunpct.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sfcsunpct.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sfcsunpct.curr.%04dlst.d2.body.png"
   "Wind":
     "Sfc.Wind (2m)":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind0.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind0.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind0.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind0.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sfcwind0.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sfcwind0.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sfcwind0.curr.%04dlst.d2.body.png"
     "Sfc.Wind (10m)":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sfcwind.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sfcwind.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sfcwind.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sfcwind.curr.%04dlst.d2.body.png"
     "BL Avg. Wind":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/blwind.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/blwind.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/blwind.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/blwind.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/blwind.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/blwind.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/blwind.curr.%04dlst.d2.body.png"
     "BL Max. Up/Down (Convergence)":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wblmaxmin.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wblmaxmin.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wblmaxmin.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/wblmaxmin.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/wblmaxmin.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/wblmaxmin.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/wblmaxmin.curr.%04dlst.d2.body.png"
   "Clouds":
     "Cu Cloudbase where CuPotential > 0":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zsfclclmask.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zsfclclmask.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zsfclclmask.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zsfclclmask.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/zsfclclmask.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/zsfclclmask.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/zsfclclmask.curr.%04dlst.d2.body.png"
     "OD Cloudbase where ODpotential > 0":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zblclmask.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zblclmask.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zblclmask.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/zblclmask.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/zblclmask.curr.%04dlst.d2.body.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/zblclmask.curr.%04dlst.d2.body.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/zblclmask.curr.%04dlst.d2.body.png"
   "Soundings and locations":
     "Exeter":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding1.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding1.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding1.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding1.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding1.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding1.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding1.curr.%04dlst.d2.png"
     "Fairford":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding2.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding2.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding2.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding2.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding2.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding2.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding2.curr.%04dlst.d2.png"
     "Herstmonceux":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding3.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding3.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding3.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding3.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding3.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding3.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding3.curr.%04dlst.d2.png"
     "Newtown (mid-Wales)":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding4.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding4.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding4.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding4.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding4.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding4.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding4.curr.%04dlst.d2.png"
     "Cambridge":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding5.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding5.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding5.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding5.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding5.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding5.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding5.curr.%04dlst.d2.png"
     "Nottingham":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding6.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding6.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding6.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding6.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding6.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding6.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding6.curr.%04dlst.d2.png"
     "Cheviots":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding7.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding7.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding7.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding7.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding7.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding7.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding7.curr.%04dlst.d2.png"
     "Callander":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding8.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding8.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding8.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding8.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding8.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding8.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding8.curr.%04dlst.d2.png"
     "Aboyne":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding9.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding9.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding9.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding9.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding9.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding9.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding9.curr.%04dlst.d2.png"
     "Buckingham":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding10.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding10.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding10.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding10.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding10.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding10.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding10.curr.%04dlst.d2.png"
     "Larkhill":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding11.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding11.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding11.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding11.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding11.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding11.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding11.curr.%04dlst.d2.png"
     "Leeds":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding12.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding12.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding12.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding12.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding12.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding12.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding12.curr.%04dlst.d2.png"
     "Carrickmore-NI":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding13.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding13.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding13.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding13.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding13.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding13.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding13.curr.%04dlst.d2.png"
     "Castor Bay-NI":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding14.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding14.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding14.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding14.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding14.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding14.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding14.curr.%04dlst.d2.png"
     "Talgarth":
       has_periods: true
-      yesterday: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding15.curr.%04dlst.d2.png"
-      today: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding15.curr.%04dlst.d2.png"
-      tomorrow: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding15.curr.%04dlst.d2.png"
-      the_day_after: "http://rasp.inn.leedsmet.ac.uk/%@/FCST/sounding15.curr.%04dlst.d2.png"
+      today: "http://rasp.inn.leedsmet.ac.uk/UK+0/FCST/sounding15.curr.%04dlst.d2.png"
+      tomorrow: "http://rasp.inn.leedsmet.ac.uk/UK+1/FCST/sounding15.curr.%04dlst.d2.png"
+      the_day_after: "http://rasp.inn.leedsmet.ac.uk/UK+2/FCST/sounding15.curr.%04dlst.d2.png"

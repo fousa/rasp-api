@@ -22,7 +22,7 @@ class App < Sinatra::Base
     headers 'Access-Control-Allow-Origin' => '*'
 
     class_name = Rasp
-    class_name = Uk if params[:region] == "uk"
+    #class_name = Uk if params[:region] == "uk"
     rasp = class_name.new params[:region]
 		
     halt 400, { :error => "Region incorrect or not supplied" }.to_json unless rasp.exists?
