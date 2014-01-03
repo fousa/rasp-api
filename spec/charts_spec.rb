@@ -23,12 +23,15 @@ describe 'The charts' do
             germany
             hilltown
             jaca
+            kanto2km
+            kanto6km
             newsouthwales
             nsw
             nt
             qld
             queensland
             sa
+            sierra
             slovakia
             southaustralia
             southerncalifornia
@@ -38,8 +41,6 @@ describe 'The charts' do
             vic
             wa
             westernswissalps
-            kanto2km
-            kanto6km
         ).sort.each do |country|
             it "should validate the links for #{country}" do
                 validate_links_for country
