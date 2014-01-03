@@ -38,6 +38,8 @@ describe 'The charts' do
             vic
             wa
             westernswissalps
+            kanto2km
+            kanto6km
         ).sort.each do |country|
             it "should validate the links for #{country}" do
                 validate_links_for country

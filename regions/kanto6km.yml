@@ -1,0 +1,235 @@
+kanto6km:
+  config:
+    periods: [900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800]
+    only_hours_in_url: false
+    source_url: "http://blipmap.glider.jp/BLIPMAP/univiewer.html"
+  "Forecasted charts":
+    "Thermal Up. Vel. & B/S Ratio":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.wstar_bsratio.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/wstar_bsratio.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/wstar_bsratio.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/wstar_bsratio.curr+2.%04dlst.d2.png"
+    "Thermal Updraft Velocity":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.wstar.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/wstar.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/wstar.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/wstar.curr+2.%04dlst.d2.png"
+    "Buoyancy/Shear Ratio":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.bsratio.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/bsratio.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/bsratio.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/bsratio.curr+2.%04dlst.d2.png"
+    "Critical Updraft Hgt (Hcrit)":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.hwcrit.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/hwcrit.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/hwcrit.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/hwcrit.curr+2.%04dlst.d2.png"
+    "BL Top Height":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.hbl.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/hbl.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/hbl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/hbl.curr+2.%04dlst.d2.png"
+    "BL Depth":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.dbl.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/dbl.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/dbl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/dbl.curr+2.%04dlst.d2.png"
+    "Thermal Hgt. Variability":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.bltopvariab.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/bltopvariab.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/bltopvariab.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/bltopvariab.curr+2.%04dlst.d2.png"
+    "Surface Heating":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sfcshf.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sfcshf.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sfcshf.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sfcshf.curr+2.%04dlst.d2.png"
+    "Normalized Surface Sun":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sfcsunpct.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sfcsunpct.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sfcsunpct.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sfcsunpct.curr+2.%04dlst.d2.png"
+    "Surface Temperature":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sfctemp.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sfctemp.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sfctemp.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sfctemp.curr+2.%04dlst.d2.png"
+    "Sfc. Wind":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sfcwind.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sfcwind.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sfcwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sfcwind.curr+2.%04dlst.d2.png"
+    "BL Avg. Wind":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.blwind.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/blwind.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/blwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/blwind.curr+2.%04dlst.d2.png"
+    "BL Top Wind":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.bltopwind.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/bltopwind.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/bltopwind.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/bltopwind.curr+2.%04dlst.d2.png"
+    "BL Vertical Wind Shear":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.blwindshear.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/blwindshear.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/blwindshear.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/blwindshear.curr+2.%04dlst.d2.png"
+    "BL Max.Up/Down Motion":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.wblmaxmin.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/wblmaxmin.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/wblmaxmin.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/wblmaxmin.curr+2.%04dlst.d2.png"
+    "Cumulus Potential":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.zsfclcldif.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/zsfclcldif.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/zsfclcldif.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/zsfclcldif.curr+2.%04dlst.d2.png"
+    "Cumulus Cloudbase":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.zsfclcl.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/zsfclcl.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/zsfclcl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/zsfclcl.curr+2.%04dlst.d2.png"
+    "Cu Cloudbase @CuPot>0":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.zsfclclmask.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/zsfclclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/zsfclclmask.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/zsfclclmask.curr+2.%04dlst.d2.png"
+    "OD Potential":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.zblcldif.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/zblcldif.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/zblcldif.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/zblcldif.curr+2.%04dlst.d2.png"
+    "OD Cloudbase":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.zblcl.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/zblcl.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/zblcl.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/zblcl.curr+2.%04dlst.d2.png"
+    "OD Cloudbase @ODpot>0":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.zblclmask.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/zblclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/zblclmask.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/zblclmask.curr+2.%04dlst.d2.png"
+    "CloudWater Cloudbase":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.blcwbase.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/blcwbase.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/blcwbase.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/blcwbase.curr+2.%04dlst.d2.png"
+    "Sfc. Dew Point Temp.":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sfcdewpt.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sfcdewpt.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sfcdewpt.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sfcdewpt.curr+2.%04dlst.d2.png"
+    "CAPE":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.cape.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/cape.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/cape.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/cape.curr+2.%04dlst.d2.png"
+    "Vert.Velocity@850mb":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.press850.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/press850.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/press850.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/press850.curr+2.%04dlst.d2.png"
+    "Vert.Velocity@700mb":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.press700.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/press700.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/press700.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/press700.curr+2.%04dlst.d2.png"
+    "Vert.Velocity@500mb":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.press500.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/press500.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/press500.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/press500.curr+2.%04dlst.d2.png"
+    "Vert.Vel.Slide@Vert.Vel.Max":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.boxwmax.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/boxwmax.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/boxwmax.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/boxwmax.curr+2.%04dlst.d2.png"
+  "Forecasted soundings":
+    "Itakura":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding1.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding1.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding1.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding1.curr+2.%04dlst.d2.png"
+    "Sekiyado":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding2.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding2.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding2.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding2.curr+2.%04dlst.d2.png"
+    "Menuma":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding3.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding3.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding3.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding3.curr+2.%04dlst.d2.png"
+    "Kinugawa":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding4.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding4.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding4.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding4.curr+2.%04dlst.d2.png"
+    "Nagano":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding5.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding5.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding5.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding5.curr+2.%04dlst.d2.png"
+    "Kirigamine":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding6.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding6.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding6.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding6.curr+2.%04dlst.d2.png"
+    "Fujigawa":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding7.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding7.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding7.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding7.curr+2.%04dlst.d2.png"
+    "Nirasak":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding8.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding8.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding8.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding8.curr+2.%04dlst.d2.png"
+    "Yomiuri Kazo":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding9.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding9.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding9.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding9.curr+2.%04dlst.d2.png"
+    "OhtoneAD":
+      has_periods: true
+      yesterday: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/previous.sounding10.curr.%04dlst.d2.png"
+      today: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN/FCST/sounding10.curr.%04dlst.d2.png"
+      tomorrow: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+1/FCST/sounding10.curr+1.%04dlst.d2.png"
+      the_day_after: "http://blipmap.glider.jp/BLIPMAP/KANTO_JAPAN+2/FCST/sounding10.curr+2.%04dlst.d2.png"
