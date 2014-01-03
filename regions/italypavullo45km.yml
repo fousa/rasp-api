@@ -1,0 +1,96 @@
+italypavullo45km:
+  config:
+    periods: [600, 800, 1000, 1200, 1400, 1600, 1800]
+    only_hours_in_url: false
+    source_url: "http://www.eziosarti.com/meteo/rasp/pavullo.htm"
+  "Calorimetric data":
+    "Surface Temperature":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/sfctemp.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/sfctemp.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/sfctemp.curr.%04dlst.d2.png"
+  "Thermal":
+    "Average speed of the thermal":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/wstar.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/wstar.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/wstar.curr.%04dlst.d2.png"
+    "Average speed of thermals and turbulence":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/wstar_bsratio.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/wstar_bsratio.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/wstar_bsratio.curr.%04dlst.d2.png"
+  "Heights":
+    "Maximum height glider in thermal":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/hwcrit.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/hwcrit.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/hwcrit.curr.%04dlst.d2.png"
+    "Space between max altitude glider and ground":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/dwcrit.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/dwcrit.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/dwcrit.curr.%04dlst.d2.png"
+    "Base condensation isolated Cumulus":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/zsfclclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/zsfclclmask.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/zsfclclmask.curr.%04dlst.d2.png"
+    "Base Cumulus to great development":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/zblclmask.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/zblclmask.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/zblclmask.curr.%04dlst.d2.png"
+    "Boundary layer":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/hbl.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/hbl.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/hbl.curr.%04dlst.d2.png"
+  "Wind":
+    "Surface wind":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/sfcwind.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/sfcwind.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/sfcwind.curr.%04dlst.d2.png"
+    "Average wind in the boundary layer":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/blwind.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/blwind.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/blwind.curr.%04dlst.d2.png"
+    "Wind at the topo top the boundary layer":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/bltopwind.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/bltopwind.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/bltopwind.curr.%04dlst.d2.png"
+  "Breezes, convergence, wave":
+    "Convergence and sea Breezes":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/wblmaxmin.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/wblmaxmin.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/wblmaxmin.curr.%04dlst.d2.png"
+    "Wave at 850 mb - ca 1500m":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/press850.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/press850.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/press850.curr.%04dlst.d2.png"
+    "Wave at  700 mb - ca 3000m":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/press700.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/press700.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/press700.curr.%04dlst.d2.png"
+    "Wave at  500 mb - ca 5500m":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/press500.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/press500.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/press500.curr.%04dlst.d2.png"
+  "Cloud cover, storms, Rainfall":
+    "Cloud cover":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/blcloudpct.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/blcloudpct.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/blcloudpct.curr.%04dlst.d2.png"
+    "Storms":
+      has_periods: true
+      today: "http://www.eziosarti.com/meteo/rasp/pavullo/cape.curr.%04dlst.d2.png"
+      tomorrow: "http://www.eziosarti.com/meteo/rasp/pavullo+1/cape.curr.%04dlst.d2.png"
+      the_day_after: "http://www.eziosarti.com/meteo/rasp/pavullo+2/cape.curr.%04dlst.d2.png"

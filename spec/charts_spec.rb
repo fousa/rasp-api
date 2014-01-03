@@ -22,6 +22,16 @@ describe 'The charts' do
             finland
             germany
             hilltown
+            italyalzate15km
+            italyalzate45km
+            italycentralsouth15km
+            italycentralsouth45km
+            italypavullo15km
+            italypavullo45km
+            italytorino18km
+            italytorino72km
+            italytrento24km
+            italytrento72km
             jaca
             kanto2km
             kanto6km
