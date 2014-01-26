@@ -51,6 +51,7 @@ describe 'The charts' do
             vic
             wa
             westernswissalps
+            south_africa_wc
         ).sort.each do |country|
             it "should validate the links for #{country}" do
                 validate_links_for country
