@@ -222,6 +222,6 @@ benelux:
   "Experimental":
     "Potential flight distance":
       has_periods: false
-      yesterday: "http://blipmaps.nl/plaatjes_gisteren/pfdtot.curr.1900lst.d2.png"
-      today: "http://blipmaps.nl/plaatjes/pfdtot.curr.1900lst.d2.png"
-      tomorrow: "http://blipmaps.nl/plaatjes_morgen/pfdtot.curr+1.1900lst.d2.png"
+      yesterday: "http://blipmaps.nl/plaatjes_gisteren/pfdtot.curr.2000lst.d2.png"
+      today: "http://blipmaps.nl/plaatjes/pfdtot.curr.2000lst.d2.png"
+      tomorrow: "http://blipmaps.nl/plaatjes_morgen/pfdtot.curr+1.2000lst.d2.png"
